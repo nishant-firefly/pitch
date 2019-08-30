@@ -1,0 +1,96 @@
+--    Select SourcePath, Title,  TouchPresentationDefinition, Descrip from dbo.TouchPresentationDefinition (nolock) where SourcePath like 'Z:\MWCD%' order by VisibilityFinish desc, SourcePath
+
+
+declare @thisPitch varchar(40)
+Set @thisPitch = '35EAC9F4-2FCA-4112-95FA-1132F5CE046E'
+
+
+IF OBJECT_ID('TEMPDB..#TMP1') IS NOT NULL BEGIN DROP TABLE #TMP1 END
+
+create table #TMP1  (input Varchar(100))
+
+Insert into #TMP1 values('MWCD_SalesBy_All1')
+Insert into #TMP1 values('MWCD_SalesBy_L52_All1')
+Insert into #TMP1 values('MWCD_SalesBy_All1_Info')
+
+Insert into #TMP1 values('MWCD_StorePerformance_All1')
+
+Insert into #TMP1 values('MWCD_Promo_All1')
+
+Insert into #TMP1 values('MWCD_PC_Gum1_All1')
+Insert into #TMP1 values('MWCD_PC_Confection1_All1')
+Insert into #TMP1 values('MWCD_PC_Mint1_All1')
+Insert into #TMP1 values('MWCD_PC_Choco_All1')
+Insert into #TMP1 values('MWCD_PC_Peg1_All1')
+Insert into #TMP1 values('MWCD_PCCombos_All1')
+Insert into #TMP1 values('MWCD_PC_GoodnessKnows_All1')
+Insert into #TMP1 values('MWCD_PC_INFO')
+
+Insert into #TMP1 values('MWCD_CompDistIC_All1')
+Insert into #TMP1 values('MWCD_CompDistFC_All1')
+Insert into #TMP1 values('MWCD_CompDist_Info')
+
+Insert into #TMP1 values('MWCD_ContCompShip_PtLevel_All1')
+Insert into #TMP1 values('MWCD_CompShip_FirstHalf_All1')
+Insert into #TMP1 values('MWCD_CompShip_SecondHalf_All1')
+
+Insert into #TMP1 values('MWCD_CompOptShip_FirstHalf_All1')
+Insert into #TMP1 values('MWCD_CompOptShip_SecondHalf_All1')
+
+Insert into #TMP1 values('MWCD_CompShip_Info')
+
+
+Insert into #TMP1 values('MWCD_RacksRewards_All1')
+Insert into #TMP1 values('MWCD_RacksRewards_Info')
+
+Insert into #TMP1 values('MWCD_SeasonalPlan_All1')
+Insert into #TMP1 values('MWCD_SeasonalPlan_All1_Info')
+
+Insert into #TMP1 values('MWCD_DistASMID_All1')
+Insert into #TMP1 values('MWCD_DistributorCodes_All1')
+Insert into #TMP1 values('ARTS_Client_Distributors')
+
+Insert into #TMP1 values('ARTS_Client_Activities')
+Insert into #TMP1 values('STORENUMBER')
+Insert into #TMP1 values('MWCD_PC_SelectedFilter')
+
+
+Insert into #TMP1 values('MWCD_HalloweenPreSell_All1')
+Insert into #TMP1 values('MWCD_5GumPreSell_All1')
+Insert into #TMP1 values('MWCD_HolidayPreSell_All1')
+Insert into #TMP1 values('MWCD_WhiteShipperPreSell_All1')
+
+Insert into #TMP1 values('MWCD_HalloweenPreSell_Detail_All1')
+Insert into #TMP1 values('MWCD_5GumPreSell_Detail_All1')
+Insert into #TMP1 values('MWCD_HolidayPreSell_Detail_All1')
+Insert into #TMP1 values('MWCD_WhiteShipperPreSell_Detail_All1')
+
+--CONTRACT COMPLIANCE
+    -- SLIDE1
+Insert into #TMP1 values('MWCD_ContCompDist_All1')
+Insert into #TMP1 values('MWCD_ContComp_DistributionItems_All1')
+Insert into #TMP1 values('MWCD_ContCompDist_Info1')
+
+    -- SLIDE2
+Insert into #TMP1 values('MWCD_ContCompShip_All1')
+
+    -- SLIDE3
+Insert into #TMP1 values('MWCD_ContCompCU_PtLevel_All1')
+Insert into #TMP1 values('MWCD_ContCounterUnits_All1')
+Insert into #TMP1 values('MWCD_ContCounterUnits_Info1')
+
+    -- SLIDE4
+Insert into #TMP1 values('MWCD_ContDisplays_All1')
+Insert into #TMP1 values('MWCD_ContSeasonal_All1')
+Insert into #TMP1 values('MWCD_ContDispSeas_Info1')
+
+
+--select * from #TMP1 (nolock)
+
+-- Insert this list in to dbo.TouchPresentationInputDataLink creating a GUID for the TouchPresentationInputDataLink field.
+--TouchPresentationInputDataLink
+insert into TouchPresentationInputDataLink
+Select newid() TouchPresentationInputDataLink, TouchPresentationInputData, @thisPitch  as TouchPresentationDefinition, null
+from dbo.TouchPresentationInputData (nolock)
+where ID in (select input from #TMP1 (nolock))
+and TouchPresentationInputData NOT in (Select TouchPresentationInputData from dbo.TouchPresentationInputDataLink (nolock) where TouchPresentationDefinition = @thisPitch)

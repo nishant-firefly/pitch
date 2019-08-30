@@ -1,0 +1,81 @@
+function populate_table_overload(TableDivId){ // This function allows a table to be recalculated and a custom function to be called as the table first opens. There is no other way to execute a recalculate when a page initially opens (fromthe pagediv).
+	if (TableDivId.substring(0,10) == 'tblENR_POS') {
+		POSArrows(TableDivId);
+	};
+};
+
+function stripNonRealDigits(numberSource) // This function takes a string variable and takes out every single character that is not a number.
+{ 
+    var m_strOut = new String(numberSource); 
+    m_strOut = m_strOut.replace(/[^\d.]/g, '');  
+    return m_strOut; 
+}
+
+function addCommas(nStr){ // This function accepts a number as a string and then adds commas for thousands separators. It returns the string with any decimals added back.
+ nStr += '';
+ x = nStr.split('.');
+ x1 = x[0];
+ x2 = x.length > 1 ? '.' + x[1] : '';
+ var rgx = /(\d+)(\d{3})/;
+ while (rgx.test(x1)) {
+  x1 = x1.replace(rgx, '$1' + ',' + '$2');
+ }
+ return x1 + x2;
+}
+
+
+function ClearAll(container_name, recalculate_table) // This is a clear function athat wipes out saved values (whether checkbox, text box, or filter) and re-filters the table. Because some tables need to have special recalculation functions, we can activate custom functions by table-name. 
+{
+    if (container_name==null)
+        container_name = $(event.srcElement).parent().attr('id');
+    
+    var $container;
+    $container = $('#' + container_name);
+            
+    var $multiSelects = $container.find('select[multiselect=true][storagekeyprefix]'); 
+    $multiSelects.multiselect("uncheckAll");
+    $multiSelects.multiselect("close");
+	var $Selects = $container.find('select[multiselect=false][storagekeyprefix]'); 
+    $Selects.val('');
+    $Selects.change();
+
+    var $elementsWithStoragesKeys = $container.find('*[storagekeyprefix]')
+    $elementsWithStoragesKeys.each(function(index){
+        var $item  = $(this);
+        if ($item.is('[type=checkbox]')){
+            $item.attr('checked', false);   
+            $item.change();
+        }else if ($item.hasClass('checkboximage')){
+            if ($item.hasClass('checked')) 
+				$item.click();
+        }else if($item.is('[type=textbox]')){
+            $item.val('');   
+            $item.change();
+        }
+     });
+    //change this by calculator
+	//alert(recalculate_table.substring(3,9));
+	if (recalculate_table.substring(3,9) == 'MWM_DC') {
+	//alert(recalculate_table);
+		MWM_DP_RecalculateTable(recalculate_table);
+	}
+
+}
+
+$(window).ready(function(){  // This is a function that binds a multi-select change to filtering and changing an array. It also can call a custom function to recalculate table and summary values.
+    $('body select[filterTarget]').bind('custom_multi_select',function (){
+      //when any of those select values are changed, it will run this function
+      //the selected values are returned within the arrSelected array.
+      //to convert to string,  use the $.map function.  
+        var arrSelected = $(this).multiselect("getChecked");
+        var arrString = $.map(arrSelected, function(item){
+                                                          return item.value;
+                                                    });           
+		var filterDiv=$(this).closest("div").attr("id");
+		if (filterDiv.substring(0,6) == 'MWM_DC') {
+			var tblDiv='tbl'+filterDiv.replace("_filters", "");
+	 		MWM_DP_RecalculateTable(tblDiv);
+		}                          
+    })
+
+})

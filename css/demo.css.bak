@@ -1,0 +1,115 @@
+* {
+  box-sizing:border-box;
+}
+
+.demo{
+  width:988px; 
+  max-width:988px;
+}
+
+.demo h1{
+    margin: 0;
+}
+
+.column-header{
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 30px;
+  text-align: center;
+  width: 100%;
+  height: 60px; 
+}
+
+.column-text{
+    color: white;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-stretch: condensed;
+    font-size: 17px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.column-text h1{
+  font-stretch: condensed;
+  font-size: 36px;  
+  font-weight: 700;
+  text-align: center;
+  line-height: 50px;
+}
+
+.column-text h3{
+  font-stretch: condensed;
+  font-size: 14px;  
+  font-weight: 500;
+  text-align: center;
+}
+
+.demo .container {
+  padding: 64px;
+}
+
+.heading-grey{
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-stretch: condensed;
+  font-size: 32px;
+}
+
+.heading-white{
+  color: white;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-weight: 700;
+  font-stretch: condensed;
+  font-size: 28px;
+}
+
+
+/* Create four equal columns that floats next to each other */
+.demo .column {
+  position: relative;
+  float: left;
+  width: 20%;
+  padding: 5px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.demo .candy-column {
+  position: relative;
+  float: left;
+  width: 20%;
+  padding: 5px;
+}
+
+.demo .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Clear floats after the columns */
+.demo .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.demo img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.demo .center {
+  padding: 15px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .demo img {
+    margin: auto;
+  }
+}

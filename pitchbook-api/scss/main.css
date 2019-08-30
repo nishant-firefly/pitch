@@ -1,0 +1,231 @@
+
+@keyframes ants { to { background-position: 100% 100% } }
+
+asm-img[visible] {
+    display: block;
+}
+
+[contenteditable]:focus {
+    outline: 0px solid transparent;
+}
+
+
+.asm-error-list {
+    border: solid 1px red;
+    border-radius: 5px;
+    background-color: #ffcdc4;
+    display: none;
+}
+
+.asm-error-list.has-error {
+    display: block;
+}
+
+.asm-error-item {
+    color: red;
+}
+
+.asm-element-has-error {
+    border: solid 5px red;
+}
+
+[asm-editable] {
+    visibility: hidden;
+}
+
+[asm-editable].rendered {
+    visibility: visible;
+}
+
+.asm-img-highlighter{
+border: 2px dashed #64D0FF;
+}
+
+.asm-text-highlighter{
+    border: 2px dashed white;
+    position: relative;
+    max-height: 250px;
+    display: inline-block;
+    text-overflow: ellipsis;
+    background: rgba(76, 175, 80, 0.2);
+}
+
+.asm-text-editable{
+    border: 2px dashed #4286f4 !important;
+}
+
+
+.asm-txt-highlighter {
+    padding:1px;
+    border: 1px solid transparent;
+    background: linear-gradient(white, white) padding-box,
+                repeating-linear-gradient(-45deg, black 0, black 25%, transparent 0, transparent 50%) 0 / .6em .6em;
+    animation: ants 12s linear infinite;
+    display: inline-block;
+    position: relative;
+    border: 2px dotted #4286f4;
+}
+
+
+.img-icon{
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  background-image: url("img_icon.png");
+}
+
+.hide-controls{
+    display: none;
+}
+
+.show-controls{
+    display: visible;
+}
+
+.img-edit-btn{
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    display: inline-block;
+    background-image: url("pencil_icon.png");
+  }
+
+  .img-resize-btn{
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    display: inline-block;
+    background-image: url("resize_icon.png");
+  }
+
+
+  .text-icon{
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    background-image: url("text_icon.png");
+  }
+
+  .bold-text-btn{
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    display: inline-block;
+    background-image: url("bold_text_btn.png");
+  }
+
+  .italic-text-btn{
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    display: inline-block;
+    background-image: url("italic_text_btn.png");
+  }
+
+  .centera-text-btn{
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    display: inline-block;
+    background-image: url("centera_text_btn.png");
+  }
+
+  .lefta-text-btn{
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    display: inline-block;
+    background-image: url("lefta_text_btn.png");
+  }
+
+  .righta-text-btn{
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    display: inline-block;
+    background-image: url("righta_text_btn.png");
+  }
+
+
+.resizer{
+    left: 60px;
+    top: 42px;
+    background: black;
+    position: absolute;
+  }
+
+.label{
+    right: 0;
+    top: -12px;
+    position: absolute;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    text-transform: capitalize;
+    padding: 2px;
+    font-family: "Arial Narrow",Arial,sans-serif; 
+    font-weight: 100;
+    font-size: 8px;
+  }
+
+
+  .toolbar{
+    top: -25px;
+    position: absolute;
+    cursor: pointer;
+    background-color: black;
+    width: 196px;
+    height: 28px;
+  }
+
+
+.asm-controlss {
+    padding-top: 20%;
+    text-align: center;
+    position:absolute;
+    top:-100%;
+    right:0;
+    background:rgba(66, 139, 202, 0.75);
+    width:100%;
+    height:100%;
+    text-align:center;
+    color:#fff !important;
+    z-index:2;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25 ease-in-out;
+    transition: all 0.25s ease-in-out;
+}
+
+
+.asm-img-highlighter:hover .asm-controls {
+    top:0%;
+}
+
+.asm-controlss button{
+    background-color: firebrick; /* Green background */
+    border: 1px solid white; /* Green border */
+    color: white; /* White text */
+    padding: 2px 4px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 50%; /* Set a width if needed */
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.blinker { 
+    animation-name: blinker;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(1,0,0,1);
+    animation-duration: 1s;
+
+    font-size: inherit;
+    color: inherit;
+    font-family: inherit;
+  }
+  
+  @keyframes blinker { 
+    from { opacity: 1.0; } to { opacity: 0.0; }
+  }

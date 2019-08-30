@@ -1,0 +1,74 @@
+﻿.upc-a {
+width: 320px;
+padding-left: 30px;
+}
+
+.upc-wrap {
+width: 285px; 
+height: 70px; 
+}
+
+.m { 
+width: 3px;
+height: 80px;  
+display: inline-block;
+vertical-align: top;
+}
+
+.long {
+height: 90px;
+}
+
+.o {
+background-color: #fff;
+}
+
+.e {
+background-color: #000;
+}
+
+.l {
+display: inline-block;
+}
+
+.r {
+display: inline-block;
+}
+
+.r .o.m {
+background-color: #000;
+}
+
+.r .e.m {
+background-color: #fff;
+}
+
+.l1, .l2, .l3, .l4, .l5, .l6 {
+display: inline-block;
+}
+
+.r1, .r2, .r3, .r4, .r5, .r6 {
+display: inline-block;
+}
+
+.digits {
+font-family: monospace, Courier;
+font-size: 2em;
+display: inline;
+position: relative;
+top: 10px;
+letter-spacing: 3px;
+}
+.l-prefix{
+margin-left: -25px;
+}
+.l-digits {
+margin-left: 25px;
+}
+
+.r-digits {
+margin-left: 25px;
+}
+.r-suffix{
+margin-left: 25px;
+}

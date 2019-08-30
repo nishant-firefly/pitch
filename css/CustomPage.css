@@ -1,0 +1,4900 @@
+﻿div.footertext {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 28px;
+    width: 800px;
+    font-family: Candara;
+    color: #0353A8;
+    text-align: center;
+    border: 0px solid red;
+    margin: 0 auto;
+}
+
+div.SourceTextContainer {
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    border: 0px solid red;
+    bottom: 5px;
+}
+
+div.SourceText2 {
+    position: relative;
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 60%;
+    border: 0px solid red;
+}
+
+div.SourceText {
+    position: relative;
+    margin: auto;
+    text-align: center;
+    font-size: 75%;
+    border: 0px solid red;
+}
+
+div.ChainTotalText {
+    position: relative;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 28px;
+    font-family: Candara;
+    color: #0353A8;
+    left: 70px;
+}
+
+td.HeadTitle {
+    background-color: #e26d03;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 28px;
+}
+
+div#Promo_All1 table.custom {
+    margin-top: 160px;
+}
+
+    div#Promo_All1 table.custom tbody {
+        max-height: 240px;
+    }
+
+        div#Promo_All1 table.custom tbody tr td {
+            text-align: left;
+        }
+
+div#Promo_All1 table.custom {
+    width: 877px;
+}
+
+/*.ui-multiselect {
+    width: 210px !important;
+}*/
+
+.ui-multiselect {
+    max-height: 25px;
+    width: 180px !important;
+    overflow: auto;
+}
+
+
+.jqplot-table-legend tr {
+    margin: 10px 15px;
+}
+
+    .jqplot-table-legend tr td:not(:first-child) {
+        padding-left: 5px;
+    }
+
+.ui-multiselect span, .ui-multiselect-checkboxes span {
+    font-size: 14px;
+}
+
+.ui-multiselect-checkboxes label input {
+    position: relative;
+    top: -2px;
+    margin: 5px 7px;
+}
+
+.ui-icon {
+    width: 18px;
+    height: 18px;
+    margin: 4px;
+}
+
+#divPCSummary {
+    background-color: #f5f5f5;
+    border: 10px solid #f2f2f2;
+    width: 98%;
+}
+
+    #divPCSummary .fldsetContent {
+        color: #000000;
+        display: block;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        border: solid 1px #000000;
+    }
+
+    #divPCSummary .legend {
+        height: 17px;
+        font: bold 14px arial;
+        color: #151515;
+        margin-left: 15px;
+        padding: 2px 20px;
+        border: solid 1px #000000;
+        background: #E6E6E6;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+    }
+
+.profitTitle {
+    font: bold 25px arial;
+    color: Black;
+    padding-right: 15px;
+}
+
+.profitPer, .profitPer > span {
+    font: bold 25px arial;
+    color: #149e22;
+    padding-right: 30px;
+}
+
+.pc_summary {
+    padding: 10px;
+    text-align: center;
+}
+
+.pc_summary_item {
+    margin: 20px;
+    padding: 10px 15px;
+    font-weight: normal;
+}
+
+.pc_summary_valueField {
+    padding-top: 3px;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pc_summary_operator {
+    color: #385d8a;
+    font-size: 45px;
+    vertical-align: middle;
+}
+
+
+/****************************
+    Distributor Table
+*****************************/
+
+
+#SelectDropDown {
+    margin-top: 324px;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    width: 194px;
+    margin-left: -64px;
+    border: 0px;
+    font-size: 12px;
+}
+
+#SelectDropDown2 {
+    margin-top: 324px;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    width: 194px;
+    margin-left: -64px;
+    border: 0px;
+    font-size: 12px;
+}
+
+div#MWCD_StorePromo_Opp1 table.custom, div#MWCD_StorePromo_Opp3 table.custom {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border: 1px solid black;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+div#MWCD_StorePromo_Opp1 > div > div.graphfilters, div#MWCD_StorePromo_Opp3 > div > div.graphfilters {
+    position: relative;
+    left: 25px;
+    top: 103px;
+    display: block;
+}
+
+/*div#MWCD_StorePromo_Opp1 > div > div.graph {
+    width: 895px !important;
+    height: 315px !important;
+    display: block;
+    font-size: 20px;
+    color: black;
+    margin-left: 33px;
+    margin-top: 220px;
+    outline: 0px solid #000;
+}*/
+
+div#MWCD_StorePromo_Opp1 > div > table.custom thead tr th, div#MWCD_StorePromo_Opp1 > table.custom tfoot tr th,
+div#MWCD_StorePromo_Opp3 > div > table.custom thead tr th, div#MWCD_StorePromo_Opp3 > table.custom tfoot tr th {
+    display: none;
+}
+
+
+
+div#MWCD_StorePromo_Opp1 > div > table.custom tr td, div#MWCD_StorePromo_Opp3 > div > table.custom tr td {
+    background-color: transparent;
+    padding: 6px;
+    text-align: left;
+    color: #1a1a1a;
+    border: 0;
+}
+
+/*div#MWCD_StorePromo_Opp1 > div > table.custom tr td:nth-child(1), div#MWCD_StorePromo_Opp1 > div > table.custom tr td:nth-child(2) {
+    display: none;
+}*/
+
+div#MWCD_StorePromo_Opp1 table.custom tbody, div#MWCD_StorePromo_Opp3 table.custom tbody {
+    /*border:0;
+    border-left: 0;*/
+    max-height: 190px;
+}
+
+    div#MWCD_StorePromo_Opp1 table.custom tbody tr td:nth-child(2),
+    div#MWCD_StorePromo_Opp1 table.custom tbody tr td:nth-child(3),
+    div#MWCD_StorePromo_Opp1 table.custom tbody tr td:nth-child(4),
+    div#MWCD_StorePromo_Opp3 table.custom tbody tr td:nth-child(2),
+    div#MWCD_StorePromo_Opp3 table.custom tbody tr td:nth-child(3),
+    div#MWCD_StorePromo_Opp3 table.custom tbody tr td:nth-child(4) {
+        text-align: left;
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    div#MWCD_StorePromo_Opp1 table.custom tbody tr td:nth-child(5),
+    div#MWCD_StorePromo_Opp1 table.custom tbody tr td:nth-child(6),
+    div#MWCD_StorePromo_Opp1 table.custom tbody tr td:nth-child(7),
+    div#MWCD_StorePromo_Opp1 table.custom tbody tr td:nth-child(8),
+    div#MWCD_StorePromo_Opp3 table.custom tbody tr td:nth-child(5),
+    div#MWCD_StorePromo_Opp3 table.custom tbody tr td:nth-child(6),
+    div#MWCD_StorePromo_Opp3 table.custom tbody tr td:nth-child(7),
+    div#MWCD_StorePromo_Opp3 table.custom tbody tr td:nth-child(8) {
+        font-size: 12px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+/*div#MWCD_StorePromo_Opp1 table.custom thead tr th {
+    background-color: #25AEE4;
+    font-size: 14px;
+    text-align: center;
+}*/
+
+div#MWCD_StorePromo_Opp1 table.custom thead tr th:nth-child(1), div#MWCD_StorePromo_Opp3 table.custom thead tr th:nth-child(1) {
+    background-color: #25AEE4;
+    text-align: left;
+    font-size: 16px;
+}
+
+div#MWCD_StorePromo_Opp1 > div > table.custom, div#MWCD_StorePromo_Opp3 > div > table.custom {
+    border: 0px;
+    font-size: 10px;
+    font-weight: bold;
+    position: absolute;
+    width: 900px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+div#MWCD_StorePromo_Opp1 table.custom tbody tr td:nth-child(1), div#MWCD_StorePromo_Opp3 table.custom tbody tr td:nth-child(1) {
+    display: none;
+}
+
+div#MWCD_StorePromo_Opp1 > div > table.orderDeliverDates, div#MWCD_StorePromo_Opp3 > div > table.orderDeliverDates {
+    border: 0px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+
+table.distributorItemDetails {
+    margin-top: 550px;
+    left: 43px;
+}
+
+table.orderDeliverDates {
+    margin-top: 469px;
+    margin-left: 801px;
+}
+
+#tblMWCD_DistSalesOpp_All3_Detail {
+    margin-top: 469px;
+    margin-left: 826px;
+}
+
+table#tblMWCD_DistSalesOpp_All1_Detail tbody tr td, table#tblMWCD_DistSalesOpp_All3_Detail tbody tr td {
+    display: block;
+}
+
+div#MWCD_StorePromo_Opp1 table.orderDeliverDates tbody tr td:nth-child(3), div#MWCD_StorePromo_Opp3 table.orderDeliverDates tbody tr td:nth-child(3) {
+    padding-top: 0px;
+    padding-left: 7px;
+    font-size: 14px;
+}
+
+div#MWCD_StorePromo_Opp1 table.orderDeliverDates tbody tr td:nth-child(2), div#MWCD_StorePromo_Opp3 table.orderDeliverDates tbody tr td:nth-child(2) {
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+div#MWCD_StorePromo_Opp1 table.distributorItemDetails tbody tr:nth-child(1),
+div#MWCD_StorePromo_Opp1 table.distributorItemDetails tbody tr:nth-child(3),
+div#MWCD_StorePromo_Opp1 table.distributorItemDetails tbody tr:nth-child(5),
+div#MWCD_StorePromo_Opp1 table.distributorItemDetails tbody tr:nth-child(7),
+div#MWCD_StorePromo_Opp1 table.distributorItemDetails tbody tr:nth-child(9),
+div#MWCD_StorePromo_Opp1 table.distributorItemDetails tbody tr:nth-child(11),
+div#MWCD_StorePromo_Opp1 table.distributorItemDetails tbody tr:nth-child(13),
+div#MWCD_StorePromo_Opp1 table.distributorItemDetails tbody tr:nth-child(15),
+div#MWCD_StorePromo_Opp1 table.distributorItemDetails tbody tr:nth-child(17),
+div#MWCD_StorePromo_Opp1 table.distributorItemDetails tbody tr:nth-child(19),
+div#MWCD_StorePromo_Opp1 table.distributorItemDetails tbody tr:nth-child(21),
+div#MWCD_StorePromo_Opp1 table.distributorItemDetails tbody tr:nth-child(23),
+div#MWCD_StorePromo_Opp3 table.distributorItemDetails tbody tr:nth-child(1),
+div#MWCD_StorePromo_Opp3 table.distributorItemDetails tbody tr:nth-child(3),
+div#MWCD_StorePromo_Opp3 table.distributorItemDetails tbody tr:nth-child(5),
+div#MWCD_StorePromo_Opp3 table.distributorItemDetails tbody tr:nth-child(7),
+div#MWCD_StorePromo_Opp3 table.distributorItemDetails tbody tr:nth-child(9),
+div#MWCD_StorePromo_Opp3 table.distributorItemDetails tbody tr:nth-child(11),
+div#MWCD_StorePromo_Opp3 table.distributorItemDetails tbody tr:nth-child(13),
+div#MWCD_StorePromo_Opp3 table.distributorItemDetails tbody tr:nth-child(15),
+div#MWCD_StorePromo_Opp3 table.distributorItemDetails tbody tr:nth-child(17),
+div#MWCD_StorePromo_Opp3 table.distributorItemDetails tbody tr:nth-child(19),
+div#MWCD_StorePromo_Opp3 table.distributorItemDetails tbody tr:nth-child(21),
+div#MWCD_StorePromo_Opp3 table.distributorItemDetails tbody tr:nth-child(23) {
+    height: 31px;
+}
+
+
+/***************************************************************/
+
+div#MWCD_StorePromo_Opp2 table.custom {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border: 1px solid black;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+div#MWCD_StorePromo_Opp2 > div > div.graphfilters {
+    position: relative;
+    left: 25px;
+    top: 103px;
+    display: block;
+}
+
+/*div#MWCD_StorePromo_Opp2 > div > div.graph {
+    width: 895px !important;
+    height: 315px !important;
+    display: block;
+    font-size: 20px;
+    color: black;
+    margin-left: 33px;
+    margin-top: 220px;
+    outline: 0px solid #000;
+}*/
+
+div#MWCD_StorePromo_Opp2 > div > table.custom thead tr th, div#MWCD_StorePromo_Opp2 > table.custom tfoot tr th {
+    display: none;
+}
+
+
+
+div#MWCD_StorePromo_Opp2 > div > table.custom tr td {
+    background-color: transparent;
+    padding: 6px;
+    text-align: left;
+    color: #1a1a1a;
+    border: 0;
+}
+
+/*div#MWCD_StorePromo_Opp2 > div > table.custom tr td:nth-child(1), div#MWCD_StorePromo_Opp2 > div > table.custom tr td:nth-child(2) {
+    display: none;
+}*/
+
+div#MWCD_StorePromo_Opp2 table.custom tbody {
+    /*border:0;
+    border-left: 0;*/
+    max-height: 190px;
+}
+
+    div#MWCD_StorePromo_Opp2 table.custom tbody tr td:nth-child(2),
+    div#MWCD_StorePromo_Opp2 table.custom tbody tr td:nth-child(3),
+    div#MWCD_StorePromo_Opp2 table.custom tbody tr td:nth-child(4) {
+        text-align: left;
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    div#MWCD_StorePromo_Opp2 table.custom tbody tr td:nth-child(5),
+    div#MWCD_StorePromo_Opp1 table.custom tbody tr td:nth-child(6),
+    div#MWCD_StorePromo_Opp1 table.custom tbody tr td:nth-child(7),
+    div#MWCD_StorePromo_Opp1 table.custom tbody tr td:nth-child(8) {
+        font-size: 12px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+/*div#MWCD_StorePromo_Opp2 table.custom thead tr th {
+    background-color: #25AEE4;
+    font-size: 14px;
+    text-align: center;
+}*/
+
+div#MWCD_StorePromo_Opp2 table.custom thead tr th:nth-child(1) {
+    background-color: #25AEE4;
+    text-align: left;
+    font-size: 12px;
+}
+
+div#MWCD_StorePromo_Opp2 > div > table.custom {
+    border: 0px;
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    width: 900px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+div#MWCD_StorePromo_Opp2 table.custom tbody tr td:nth-child(1) {
+    display: none;
+}
+
+div#MWCD_StorePromo_Opp2 > div > table.orderDeliverDates2 {
+    border: 0px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+
+table.distributorItemDetails2 {
+    margin-top: 550px;
+    left: 43px;
+}
+
+#tblMWCD_DistSalesOpp_All4_Detail {
+    margin-top: 469px;
+    left: 23px;
+}
+
+table.orderDeliverDates2 {
+    margin-top: 469px;
+    margin-left: 809px;
+}
+
+table#tblMWCD_DistSalesOpp_All2_Detail tbody tr td {
+    display: block;
+}
+
+div#MWCD_StorePromo_Opp2 table.orderDeliverDates2 tbody tr td:nth-child(3) {
+    padding-top: 0px;
+    padding-left: 8px;
+    font-size: 14px;
+}
+
+div#MWCD_StorePromo_Opp2 table.orderDeliverDates2 tbody tr td:nth-child(2) {
+    font-size: 14px;
+    padding-bottom: 6px;
+}
+
+/*div#MWCD_StorePromo_Opp2 table.distributorItemDetails2 tbody tr  {
+    background-color:aqua;
+}*/
+
+div#MWCD_StorePromo_Opp2 table.distributorItemDetails2 tbody tr:nth-child(1),
+div#MWCD_StorePromo_Opp2 table.distributorItemDetails2 tbody tr:nth-child(2),
+div#MWCD_StorePromo_Opp2 table.distributorItemDetails2 tbody tr:nth-child(4),
+div#MWCD_StorePromo_Opp2 table.distributorItemDetails2 tbody tr:nth-child(5),
+div#MWCD_StorePromo_Opp2 table.distributorItemDetails2 tbody tr:nth-child(7),
+div#MWCD_StorePromo_Opp2 table.distributorItemDetails2 tbody tr:nth-child(8),
+div#MWCD_StorePromo_Opp2 table.distributorItemDetails2 tbody tr:nth-child(10),
+div#MWCD_StorePromo_Opp2 table.distributorItemDetails2 tbody tr:nth-child(11) {
+    height: 31px;
+}
+
+
+/******************************************************************************************************************/
+
+
+div#MWCD_StorePromo_Opp4 table.custom {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border: 1px solid black;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+div#MWCD_StorePromo_Opp4 > div > div.graphfilters {
+    position: relative;
+    left: 25px;
+    top: 103px;
+    display: block;
+}
+
+/*div#MWCD_StorePromo_Opp2 > div > div.graph {
+    width: 895px !important;
+    height: 315px !important;
+    display: block;
+    font-size: 20px;
+    color: black;
+    margin-left: 33px;
+    margin-top: 220px;
+    outline: 0px solid #000;
+}*/
+
+div#MWCD_StorePromo_Opp4 > div > table.custom thead tr th, div#MWCD_StorePromo_Opp4 > table.custom tfoot tr th {
+    display: none;
+}
+
+
+
+div#MWCD_StorePromo_Opp4 > div > table.custom tr td {
+    background-color: transparent;
+    padding: 6px;
+    text-align: left;
+    color: #1a1a1a;
+    border: 0;
+}
+
+/*div#MWCD_StorePromo_Opp2 > div > table.custom tr td:nth-child(1), div#MWCD_StorePromo_Opp2 > div > table.custom tr td:nth-child(2) {
+    display: none;
+}*/
+
+div#MWCD_StorePromo_Opp4 table.custom tbody {
+    /*border:0;
+    border-left: 0;*/
+    max-height: 190px;
+}
+
+    div#MWCD_StorePromo_Opp4 table.custom tbody tr td:nth-child(2),
+    div#MWCD_StorePromo_Opp4 table.custom tbody tr td:nth-child(3),
+    div#MWCD_StorePromo_Opp4 table.custom tbody tr td:nth-child(4) {
+        text-align: left;
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    div#MWCD_StorePromo_Opp4 table.custom tbody tr td:nth-child(5),
+    div#MWCD_StorePromo_Opp1 table.custom tbody tr td:nth-child(6),
+    div#MWCD_StorePromo_Opp1 table.custom tbody tr td:nth-child(7),
+    div#MWCD_StorePromo_Opp1 table.custom tbody tr td:nth-child(8) {
+        font-size: 12px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+/*div#MWCD_StorePromo_Opp2 table.custom thead tr th {
+    background-color: #25AEE4;
+    font-size: 14px;
+    text-align: center;
+}*/
+
+div#MWCD_StorePromo_Opp4 table.custom thead tr th:nth-child(1) {
+    background-color: #25AEE4;
+    text-align: left;
+    font-size: 12px;
+}
+
+div#MWCD_StorePromo_Opp4 > div > table.custom {
+    border: 0px;
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    width: 900px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+div#MWCD_StorePromo_Opp4 table.custom tbody tr td:nth-child(1) {
+    display: none;
+}
+
+div#MWCD_StorePromo_Opp4 > div > table.orderDeliverDates2 {
+    border: 0px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+
+table.distributorItemDetails4 {
+    margin-top: 550px;
+    left: 43px;
+}
+
+
+table.orderDeliverDates4 {
+    margin-top: 469px;
+    margin-left: 809px;
+}
+
+table#tblMWCD_DistSalesOpp_All4_Detail tbody tr td {
+    display: block;
+}
+
+div#MWCD_StorePromo_Opp4 table.orderDeliverDates2 tbody tr td:nth-child(3) {
+    padding-top: 0px;
+    padding-left: 8px;
+    font-size: 14px;
+}
+
+div#MWCD_StorePromo_Opp4 table.orderDeliverDates2 tbody tr td:nth-child(2) {
+    font-size: 14px;
+    padding-bottom: 6px;
+}
+
+/*div#MWCD_StorePromo_Opp2 table.distributorItemDetails2 tbody tr  {
+    background-color:aqua;
+}*/
+
+div#MWCD_StorePromo_Opp4 table.distributorItemDetails2 tbody tr:nth-child(1),
+div#MWCD_StorePromo_Opp4 table.distributorItemDetails2 tbody tr:nth-child(2),
+div#MWCD_StorePromo_Opp4 table.distributorItemDetails2 tbody tr:nth-child(4),
+div#MWCD_StorePromo_Opp4 table.distributorItemDetails2 tbody tr:nth-child(5),
+div#MWCD_StorePromo_Opp4 table.distributorItemDetails2 tbody tr:nth-child(7),
+div#MWCD_StorePromo_Opp4 table.distributorItemDetails2 tbody tr:nth-child(8),
+div#MWCD_StorePromo_Opp4 table.distributorItemDetails2 tbody tr:nth-child(10),
+div#MWCD_StorePromo_Opp4 table.distributorItemDetails2 tbody tr:nth-child(11) {
+    height: 31px;
+}
+
+#tblMWCD_DistSalesOpp_All4 > tbody > tr > td:nth-child(7), #tblMWCD_DistSalesOpp_All4 > tbody > tr > td:nth-child(8) {
+    text-align: center !important;
+}
+
+#tblMWCD_DistSalesOpp_All3 > tbody > tr:nth-child(1) > td:nth-child(6), #tblMWCD_DistSalesOpp_All3 > tbody > tr:nth-child(2) > td:nth-child(6) {
+    text-align: left !important;
+}
+/*************************
+MWCD_StorePromo_Promo1    
+*****************************/
+
+
+#tblMWCD_Promo_All1 > thead > tr > th {
+    font-size: 14px;
+}
+
+div#MWCD_StorePromo_Promo1 table.custom tbody tr td:nth-child(1) {
+    background-color: #D6E3F3;
+}
+
+div#MWCD_StorePromo_Promo1 table.custom {
+    margin-top: 178px;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+    div#MWCD_StorePromo_Promo1 table.custom tbody {
+        max-height: 301px;
+    }
+
+        div#MWCD_StorePromo_Promo1 table.custom tbody tr td {
+            font-size: 14px;
+            text-align: left;
+        }
+
+div#MWCD_StorePromo_Promo1 table.custom {
+    width: 900px;
+}
+
+    div#MWCD_StorePromo_Promo1 table.custom tbody tr td:nth-child(5), div#MWCD_StorePromo_Promo1 table.custom tbody tr td:nth-child(4), div#MWCD_StorePromo_Promo1 table.custom tbody tr td:nth-child(3) {
+        text-align: center;
+    }
+
+div#MWCD_StorePromo_Promo1 table.storePromotions {
+    margin-left: 41px;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+#tblMWCD_Promo_All1 > thead > tr > th:nth-child(5), #tblMWCD_Promo_All1 > thead > tr > th:nth-child(4), #tblMWCD_Promo_All1 > thead > tr > th:nth-child(3) {
+    text-align: center;
+}
+
+
+#tblMWCD_Promo_All1 > tbody > tr > td:nth-child(1) {
+    padding-left: 10px;
+    padding-right: 2px;
+}
+
+
+#tblMWCD_Promo_All1 > tbody > tr > td:nth-child(2) {
+    padding-left: 10px;
+    padding-right: 3px;
+}
+
+#tblMWCD_Promo_All1 > tbody > tr > td:nth-child(3) {
+    padding-right: 2px;
+    padding-left: 3px;
+}
+
+
+/***********************************************
+    CONTRACTS COMPLIANCE IC
+***********************************************/
+#tblMWCD_CompDistIC_All1 {
+    border: 0;
+    position: absolute;
+    margin-top: 309px;
+    margin-left: 39px;
+}
+
+    #tblMWCD_CompDistIC_All1 > thead > tr > th {
+        display: none;
+    }
+
+    #tblMWCD_CompDistIC_All1 > tbody > tr > td {
+        background-color: transparent;
+        border: 0;
+        text-align: center;
+        font-size: large;
+        font-weight: bold;
+    }
+
+
+/***********************************************
+    CONTRACTS COMPLIANCE FC
+***********************************************/
+
+#tblMWCD_CompDistFC_All1 {
+    border: 0;
+    margin-top: 504px;
+    margin-left: 39px;
+    position: absolute;
+}
+
+    #tblMWCD_CompDistFC_All1 > thead > tr > th {
+        display: none;
+    }
+
+    #tblMWCD_CompDistFC_All1 > tbody > tr > td {
+        background-color: transparent;
+        border: 0;
+        text-align: center;
+        font-size: large;
+        font-weight: bold;
+    }
+
+div#ComDist_InfoTag {
+    margin-top: 613px;
+    position: absolute;
+    margin-left: 42px;
+}
+
+    div#ComDist_InfoTag ul {
+        list-style: none;
+    }
+
+
+div#StorePerfomance_InfoTag {
+    margin-top: 653px;
+    position: absolute;
+    margin-left: 672px;
+}
+
+    div#StorePerfomance_InfoTag ul {
+        list-style: none;
+    }
+
+
+div#SalesBy_InfoTag {
+    margin-top: 639px;
+    position: absolute;
+    margin-left: 672px;
+}
+
+    div#SalesBy_InfoTag ul {
+        list-style: none;
+    }
+
+/***********************************************
+    CONTRACTS COMPLIANCE SHIPPERS 
+***********************************************/
+/*******************
+            1ST HALF
+        *********************/
+
+#tblMWCD_CompShip_FirstHalf_All1 {
+    MARGIN-TOP: 304px;
+    border: 0;
+    margin-left: 22px;
+    position: absolute;
+}
+
+    #tblMWCD_CompShip_FirstHalf_All1 > thead > tr > th {
+        display: none;
+    }
+
+    #tblMWCD_CompShip_FirstHalf_All1 > tbody > tr > td {
+        background-color: transparent;
+        border: 0;
+        text-align: center;
+        font-size: large;
+        font-weight: bold;
+    }
+
+
+
+/***********************************************
+    CONTRACTS COMPLIANCE SHIPPERS 
+***********************************************/
+/*******************
+            2ND HALF
+        *********************/
+
+#tblMWCD_CompShip_SecondHalf_All1 {
+    MARGIN-TOP: 422px;
+    border: 0;
+    margin-left: 22px;
+    position: absolute;
+}
+
+
+    #tblMWCD_CompShip_SecondHalf_All1 > thead > tr > th {
+        display: none;
+    }
+
+    #tblMWCD_CompShip_SecondHalf_All1 > tbody > tr > td {
+        background-color: transparent;
+        border: 0;
+        text-align: center;
+        font-size: large;
+        font-weight: bold;
+    }
+
+
+div#CompShip_InfoTag {
+    margin-top: 648px;
+    position: absolute;
+    margin-left: 29px;
+}
+
+
+    div#CompShip_InfoTag ul {
+        list-style: none;
+    }
+
+
+/***********************************************
+    CONTRACTS COMPLIANCE RACKS
+***********************************************/
+
+#tblMWCD_RacksRewards_All1 {
+    MARGIN-TOP: 310px;
+    border: 0;
+    margin-left: 235px;
+    position: absolute;
+}
+
+    #tblMWCD_RacksRewards_All1 > thead > tr > th {
+        display: none;
+    }
+
+    #tblMWCD_RacksRewards_All1 > tbody > tr > td {
+        background-color: transparent;
+        border: 0;
+        text-align: center;
+        font-size: large;
+    }
+
+div#MSF_RacksRewards_Info {
+    margin-top: 343px;
+    position: absolute;
+    margin-left: 582px;
+}
+
+    div#MSF_RacksRewards_Info ul {
+        list-style: none;
+    }
+
+/***
+Seasonal Plan Table    
+***/
+
+#tblMWCD_SeasonalPlan_All1 {
+    border: 0;
+    margin-top: 341px;
+    margin-left: 407px;
+    position: absolute;
+}
+
+    #tblMWCD_SeasonalPlan_All1 > thead > tr {
+        display: none;
+    }
+
+    #tblMWCD_SeasonalPlan_All1 > tbody > tr > td {
+        text-align: center;
+        background: transparent;
+        border: 0px;
+        font-size: large;
+        font-weight: bold;
+    }
+
+#MSF_SeasonalPlan_All1_INFO {
+    font-size: x-small;
+    margin-top: 372px;
+    position: absolute;
+    margin-left: 432px;
+    text-align: center;
+}
+
+div#MSF_SeasonalPlan_All1_INFO ul {
+    list-style: none;
+}
+
+
+/***
+Seasonal Plan Table    END 
+***/
+
+/***********************************************
+    CONTRACTS OPT COMPLIANCE SHIPPERS 
+***********************************************/
+/*******************
+            1ST HALF
+        *********************/
+
+#tblMWCD_CompOptShip_FirstHalf_All1 {
+    MARGIN-TOP: 550px;
+    border: 0;
+    margin-left: 291px;
+    position: absolute;
+}
+
+
+    #tblMWCD_CompOptShip_FirstHalf_All1 > thead > tr > th {
+        display: none;
+    }
+
+    #tblMWCD_CompOptShip_FirstHalf_All1 > tbody > tr > td {
+        background-color: transparent;
+        border: 1px;
+        text-align: center;
+        font-size: large;
+        font-weight: bold;
+    }
+
+
+
+/***********************************************
+    CONTRACTS OPT COMPLIANCE SHIPPERS 
+***********************************************/
+/*******************
+            2ND HALF
+        *********************/
+
+#tblMWCD_CompOptShip_SecondHalf_All1 {
+    MARGIN-TOP: 632px;
+    border: 0;
+    margin-left: 291px;
+    position: absolute;
+}
+
+
+    #tblMWCD_CompOptShip_SecondHalf_All1 > thead > tr > th {
+        display: none;
+    }
+
+    #tblMWCD_CompOptShip_SecondHalf_All1 > tbody > tr > td {
+        background-color: transparent;
+        border: 1px;
+        text-align: center;
+        font-size: large;
+        font-weight: bold;
+    }
+
+
+#tblMWCD_DistSalesOpp_All2 > tbody > tr > td:nth-child(7), #tblMSF_DistSalesOpp_All2 > tbody > tr > td:nth-child(8) {
+    text-align: center !important;
+}
+
+
+/***********************************************
+   PROFIT CALC START 
+***********************************************/
+
+
+/*********
+                  SUMMARY
+                ***********/
+
+#divPCSummary {
+    background-color: #f5f5f5;
+    border: 10px solid #f2f2f2;
+    width: 98%;
+}
+
+    #divPCSummary .fldsetContent {
+        color: #000000;
+        display: block;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        border: solid 1px #000000;
+    }
+
+    #divPCSummary .legend {
+        height: 17px;
+        font: bold 14px arial;
+        color: #151515;
+        margin-left: 15px;
+        padding: 2px 20px;
+        border: solid 1px #000000;
+        background: #E6E6E6;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+    }
+
+.profitTitle {
+    font: bold 25px arial;
+    color: Black;
+    padding-right: 15px;
+}
+
+.profitPer, .profitPer > span {
+    font: bold 25px arial;
+    color: #149e22;
+    padding-right: 30px;
+}
+
+.pc_summary {
+    padding: 10px;
+    text-align: center;
+}
+
+.pc_summary_item {
+    margin: 20px;
+    padding: 10px 15px;
+    font-weight: normal;
+}
+
+.pc_summary_valueField {
+    padding-top: 3px;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pc_summary_operator {
+    color: #385d8a;
+    font-size: 45px;
+    vertical-align: middle;
+}
+
+/*PopUp core css*/
+
+.redButton {
+    height: 28px;
+    width: 28px;
+    margin-left: -8px;
+    margin-top: -21px;
+    position: absolute;
+}
+
+.parentDisable {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    color: #aaa;
+}
+
+#popup {
+    position: absolute;
+    margin: 2%;
+    color: #000;
+    background-color: black;
+    -webkit-border-radius: 6px;
+    border: 3px solid black;
+}
+
+    #popup > div > div > img {
+        /*margin-top: 0px;
+        margin-left: 0px;*/
+        margin: 6px;
+        width: 900px;
+    }
+
+.end {
+    z-index: 99;
+    position: relative;
+    float: right;
+    margin-top: 3px;
+    /*margin-right: 10px;*/
+    -webkit-border-radius: 4px;
+}
+
+/*PopUp core css end*/
+
+
+/*********
+                   GUM  
+                ***********/
+
+div#MWCD_CStore_ProfitCalcGum1 table.custom tbody {
+    max-height: 400px;
+}
+
+    div#MWCD_CStore_ProfitCalcGum1 table.custom tbody tr td:nth-child(3), div#MWCD_CStore_ProfitCalcGum1 table.custom tbody tr td:nth-child(4) {
+        text-align: left;
+    }
+
+    div#MWCD_CStore_ProfitCalcGum1 table.custom tbody tr td:nth-child(1), div#MWCD_CStore_ProfitCalcGum1 table.custom tbody tr td:nth-child(2),
+    div#MWCD_CStore_ProfitCalcGum1 table.custom tbody tr td:nth-child(8), div#MWCD_CStore_ProfitCalcGum1 table.custom tbody tr td:nth-child(9) {
+        text-align: center;
+    }
+
+    div#MWCD_CStore_ProfitCalcGum1 table.custom tbody tr td:nth-child(10), div#MWCD_CStore_ProfitCalcGum1 table.custom thead tr th:nth-child(10) {
+        display: none;
+    }
+
+    div#MWCD_CStore_ProfitCalcGum1 table.custom tbody tr td {
+        padding-top: 8px;
+    }
+
+        div#MWCD_CStore_ProfitCalcGum1 table.custom tbody tr td:nth-child(8), div#MWCD_CStore_ProfitCalcGum1 table.custom tbody tr td:nth-child(9) {
+            padding-top: 0px;
+        }
+
+/*********
+                  Confection 
+                ***********/
+
+
+div#MWCD_CStore_ProfitCalcFruity1 table.custom tbody {
+    max-height: 400px;
+}
+
+    div#MWCD_CStore_ProfitCalcFruity1 table.custom tbody tr td:nth-child(3), div#MWCD_CStore_ProfitCalcFruity1 table.custom tbody tr td:nth-child(4) {
+        text-align: left;
+    }
+
+    div#MWCD_CStore_ProfitCalcFruity1 table.custom tbody tr td:nth-child(1), div#MWCD_CStore_ProfitCalcFruity1 table.custom tbody tr td:nth-child(2), div#MWCD_CStore_ProfitCalcFruity1 table.custom tbody tr td:nth-child(8), div#MWCD_CStore_ProfitCalcFruity1 table.custom tbody tr td:nth-child(9) {
+        text-align: center;
+    }
+
+    div#MWCD_CStore_ProfitCalcFruity1 table.custom tbody tr td:nth-child(10), div#MWCD_CStore_ProfitCalcFruity1 table.custom thead tr th:nth-child(10) {
+        display: none;
+    }
+
+    div#MWCD_CStore_ProfitCalcFruity1 table.custom tbody tr td {
+        padding-top: 8px;
+    }
+
+        div#MWCD_CStore_ProfitCalcFruity1 table.custom tbody tr td:nth-child(8), div#MWCD_CStore_ProfitCalcFruity1 table.custom tbody tr td:nth-child(9) {
+            padding-top: 0px;
+        }
+
+
+/*********
+                   MINT MWCD_CStore_ProfitCalcMint1
+                ***********/
+
+div#MWCD_CStore_ProfitCalcMint1 table.custom tbody {
+    max-height: 400px;
+}
+
+    div#MWCD_CStore_ProfitCalcMint1 table.custom tbody tr td:nth-child(3), div#MWCD_CStore_ProfitCalcMint1 table.custom tbody tr td:nth-child(4) {
+        text-align: left;
+    }
+
+    div#MWCD_CStore_ProfitCalcMint1 table.custom tbody tr td:nth-child(1), div#MWCD_CStore_ProfitCalcMint1 table.custom tbody tr td:nth-child(2), div#MWCD_CStore_ProfitCalcMint1 table.custom tbody tr td:nth-child(8), div#MWCD_CStore_ProfitCalcMint1 table.custom tbody tr td:nth-child(9) {
+        text-align: center;
+    }
+
+    div#MWCD_CStore_ProfitCalcMint1 table.custom tbody tr td:nth-child(10), div#MWCD_CStore_ProfitCalcMint1 table.custom thead tr th:nth-child(10) {
+        display: none;
+    }
+
+    div#MWCD_CStore_ProfitCalcMint1 table.custom tbody tr td {
+        padding-top: 8px;
+    }
+
+        div#MWCD_CStore_ProfitCalcMint1 table.custom tbody tr td:nth-child(8), div#MWCD_CStore_ProfitCalcMint1 table.custom tbody tr td:nth-child(9) {
+            padding-top: 0px;
+        }
+
+
+/*********
+                  PEG MWCD_CStore_ProfitCalcPeg1
+                ***********/
+
+
+div#MWCD_CStore_ProfitCalcPeg1 table.custom tbody {
+    max-height: 400px;
+}
+
+    div#MWCD_CStore_ProfitCalcPeg1 table.custom tbody tr td:nth-child(3), div#MWCD_CStore_ProfitCalcPeg1 table.custom tbody tr td:nth-child(4) {
+        text-align: left;
+    }
+
+    div#MWCD_CStore_ProfitCalcPeg1 table.custom tbody tr td:nth-child(1), div#MWCD_CStore_ProfitCalcPeg1 table.custom tbody tr td:nth-child(2), div#MWCD_CStore_ProfitCalcPeg1 table.custom tbody tr td:nth-child(8), div#MWCD_CStore_ProfitCalcPeg1 table.custom tbody tr td:nth-child(9) {
+        text-align: center;
+    }
+
+    div#MWCD_CStore_ProfitCalcPeg1 table.custom tbody tr td:nth-child(10), div#MWCD_CStore_ProfitCalcPeg1 table.custom thead tr th:nth-child(10) {
+        display: none;
+    }
+
+    div#MWCD_CStore_ProfitCalcPeg1 table.custom tbody tr td {
+        padding-top: 8px;
+    }
+
+        div#MWCD_CStore_ProfitCalcPeg1 table.custom tbody tr td:nth-child(8), div#MWCD_CStore_ProfitCalcPeg1 table.custom tbody tr td:nth-child(9) {
+            padding-top: 0px;
+        }
+
+
+
+/*********
+                  CHOC  MWCD_CStore_ProfitCalcChoco1
+                ***********/
+
+
+
+table#tblMWCD_PC_All1 {
+    width: 988px;
+}
+
+div#MWCD_CStore_ProfitCalcChoco1 table.custom tbody tr td:nth-child(3) {
+    text-align: left;
+}
+
+div#MWCD_CStore_ProfitCalcChoco1 table.custom tbody tr td:nth-child(1), div#MWCD_CStore_ProfitCalcChoco1 table.custom tbody tr td:nth-child(2), div#MWCD_CStore_ProfitCalcChoco1 table.custom tbody tr td:nth-child(8), div#MWCD_CStore_ProfitCalcChoco1 table.custom tbody tr td:nth-child(9) {
+    text-align: center;
+}
+
+div#MWCD_CStore_ProfitCalcChoco1 table.custom tbody tr td:nth-child(10), div#MWCD_CStore_ProfitCalcChoco1 table.custom thead tr th:nth-child(10) {
+    display: none;
+}
+
+div#MWCD_CStore_ProfitCalcChoco1 table.custom tbody tr td {
+    padding-top: 8px;
+}
+
+    div#MWCD_CStore_ProfitCalcChoco1 table.custom tbody tr td:nth-child(8), div#MWCD_CStore_ProfitCalcChoco1 table.custom tbody tr td:nth-child(9) {
+        padding-top: 0px;
+    }
+
+
+
+/*********
+                  COMBOS MWCD_CStore_ProfitCalcCombo1
+                ***********/
+
+
+table#tblMWCD_PCCombos_All1 {
+    width: 988px;
+}
+
+div#MWCD_CStore_ProfitCalcCombo1 table.custom tbody tr td:nth-child(3) {
+    text-align: left;
+}
+
+div#MWCD_CStore_ProfitCalcCombo1 table.custom tbody tr td:nth-child(1), div#MWCD_CStore_ProfitCalcCombo1 table.custom tbody tr td:nth-child(2), div#MWCD_CStore_ProfitCalcCombo1 table.custom tbody tr td:nth-child(8), div#MWCD_CStore_ProfitCalcCombo1 table.custom tbody tr td:nth-child(9) {
+    text-align: center;
+}
+
+div#MWCD_CStore_ProfitCalcCombo1 table.custom tbody tr td:nth-child(10), div#MWCD_CStore_ProfitCalcCombo1 table.custom thead tr th:nth-child(10) {
+    display: none;
+}
+
+div#MWCD_CStore_ProfitCalcCombo1 table.custom tbody tr td {
+    padding-top: 8px;
+}
+
+    div#MWCD_CStore_ProfitCalcCombo1 table.custom tbody tr td:nth-child(8), div#MWCD_CStore_ProfitCalcCombo1 table.custom tbody tr td:nth-child(9) {
+        padding-top: 0px;
+    }
+
+
+
+/*********
+                  GK Goodness Knows MWCD_CStore_ProfitCalcGK1
+                ***********/
+
+
+table#tblMWCD_PCGK_All1 {
+    width: 988px;
+}
+
+div#MWCD_CStore_ProfitCalcGK1 table.custom tbody tr td:nth-child(3) {
+    text-align: left;
+}
+
+div#MWCD_CStore_ProfitCalcGK1 table.custom tbody tr td:nth-child(1), div#MWCD_CStore_ProfitCalcGK1 table.custom tbody tr td:nth-child(2), div#MWCD_CStore_ProfitCalcGK1 table.custom tbody tr td:nth-child(8), div#MWCD_CStore_ProfitCalcGK1 table.custom tbody tr td:nth-child(9) {
+    text-align: center;
+}
+
+div#MWCD_CStore_ProfitCalcGK1 table.custom tbody tr td:nth-child(10), div#MWCD_CStore_ProfitCalcGK1 table.custom thead tr th:nth-child(10) {
+    display: none;
+}
+
+div#MWCD_CStore_ProfitCalcGK1 table.custom tbody tr td {
+    padding-top: 8px;
+}
+
+    div#MWCD_CStore_ProfitCalcGK1 table.custom tbody tr td:nth-child(8), div#MWCD_CStore_ProfitCalcGK1 table.custom tbody tr td:nth-child(9) {
+        padding-top: 0px;
+    }
+
+
+/*START summary screen
+    MWCD_CStore_ProfitCalcGK1
+*/
+
+#MWCD_CStore_ProfitCalcSumm1 {
+    width: 930px;
+}
+
+#add {
+    position: absolute;
+    margin-top: 122px;
+    overflow-y: scroll;
+    max-height: 260px;
+    width: 502px;
+}
+
+#sub {
+    position: absolute;
+    margin-top: 122px;
+    margin-left: 512px;
+    overflow-y: scroll;
+    max-height: 260px;
+    width: 411px;
+}
+
+#add li {
+    list-style: none;
+    border-bottom: 1px dotted #c0c0c0;
+    padding-bottom: 5px;
+    margin-left: 40px;
+}
+
+#sub li {
+    list-style: none;
+    border-bottom: 1px dotted #c0c0c0;
+    padding-bottom: 5px;
+    margin-left: 40px;
+}
+
+#add li:before {
+    content: '\2022';
+    max-width: 0;
+    max-height: 0;
+    left: -10px;
+    top: 0;
+    color: green;
+    font-size: 20px;
+}
+
+#sub li:before {
+    content: '\2022';
+    max-width: 0;
+    max-height: 0;
+    left: -10px;
+    top: 0;
+    color: red;
+    font-size: 20px;
+}
+
+#divPCSummaryScreen {
+    position: absolute;
+    margin-top: 460px;
+    width: 900px;
+}
+
+.horizontal_dotted_line {
+    border: none;
+    border-top: 1px dotted #c0c0c0;
+    color: #fff;
+    background-color: #fff;
+    height: 1px;
+    width: 100%;
+    margin-left: 25px;
+}
+
+.SummaryScreenGreenText {
+    color: #00a876;
+    display: inline;
+}
+
+.SummaryScreenRedText {
+    color: #d71828;
+    display: inline;
+}
+
+.SummaryScreenLightBlueText {
+    color: #3087ca;
+}
+
+.SummaryScreenBlueText {
+    color: #0d4985;
+    display: inline;
+}
+
+.SummaryScreen_UL_Text {
+    font-size: 23px;
+}
+
+.pc_summary_valueFieldSummaryScreen {
+    padding-top: 3px;
+    /*font-size: 16px;*/
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.pc_summary_item_summaryscreen {
+    width: 178px;
+    padding: 18px 0px 10px 12px;
+}
+
+/*.ui-widget-header{
+
+    border: none;
+    background: none;
+}*/
+
+/*END summary screen*/
+
+
+
+/*
+    ERROR LOG
+*/
+
+
+div#errorLog {
+    overflow-y: auto;
+}
+
+
+div.logTemplate1 {
+    display: none;
+}
+
+div.logTemplate2 {
+    display: none;
+}
+
+
+#tblMWCD_PC_Gum1, #tblMWCD_PC_Confection1,
+#tblMWCD_PC_Mint1, #tblMWCD_PC_Peg1,
+#tblMWCD_PC_All1, #tblMWCD_PCCombos_All1 {
+    border-top: 6px solid #276092;
+    border-bottom: 6px solid #276092;
+}
+
+    #tblMWCD_PC_Gum1 > thead > tr > th, #tblMWCD_PC_Confection1 > thead > tr > th,
+    #tblMWCD_PC_Mint1 > thead > tr > th, #tblMWCD_PC_Peg1 > thead > tr > th,
+    #tblMWCD_PC_All1 > thead > tr > th, #tblMWCD_PCCombos_All1 > thead > tr > th {
+        background-color: #276092;
+    }
+
+
+
+table#tblMWCD_StorePerfomance_All1 {
+    position: absolute;
+    top: 288px;
+    left: 39px;
+    border: none;
+}
+
+    table#tblMWCD_StorePerfomance_All1 thead {
+        display: none;
+    }
+
+    table#tblMWCD_StorePerfomance_All1 tbody tr td {
+        text-align: center;
+        background-color: #E1D8D1;
+        border: none;
+    }
+
+/*SalesBy_All1*/
+
+
+table#tblMWCD_SalesBy_All1 {
+    position: absolute;
+    top: 219px;
+    left: 41px;
+    border: none;
+}
+
+    table#tblMWCD_SalesBy_All1 tbody tr td {
+        text-align: center;
+        background-color: #E1D8D1;
+        border: none;
+    }
+
+#MWCD_SalesBy_All1_All1_filters {
+    margin-top: 178px;
+    position: absolute;
+    margin-left: 136px;
+    width: 155%;
+}
+
+table#tblMWCD_SalesBy_All1 tbody {
+    height: 312px;
+    max-height: 312px;
+}
+
+#tblMWCD_SalesBy_All1 > thead > tr > th {
+    background-color: transparent;
+    border: 0px;
+    height: 12px;
+}
+
+    #tblMWCD_SalesBy_All1 > thead > tr > th:nth-child(5) {
+        padding-right: 23px;
+    }
+
+#tblMWCD_SalesBy_All1 > tbody > tr > td:nth-child(6) {
+    padding-right: 8px;
+}
+
+/*Blockbuster Home Hotspot Start*/
+
+
+
+table#tblMWCD_SalesBy_L52_All1 {
+    position: absolute;
+    top: 219px;
+    left: 41px;
+    border: none;
+}
+
+    table#tblMWCD_SalesBy_L52_All1 tbody tr td {
+        text-align: center;
+        background-color: #E1D8D1;
+        border: none;
+    }
+
+#MWCD_SalesBy_All1_All1_filters {
+    margin-top: 178px;
+    position: absolute;
+    margin-left: 136px;
+    width: 155%;
+}
+
+table#tblMWCD_SalesBy_L52_All1 tbody {
+    height: 312px;
+    max-height: 312px;
+}
+
+#MWCD_SalesBy_All1_All1_filters .ui-multiselect {
+    max-height: 25px;
+    width: 172px !important;
+    overflow: auto;
+}
+
+#MWCD_SalesBy_All1_All1_filters > button.ui-multiselect span,
+#MWCD_SalesBy_All1_All1_filters > button.ui-multiselect-checkboxes span {
+    font-size: 14px;
+}
+
+
+#tblMWCD_SalesBy_L52_All1 > thead > tr > th {
+    background-color: transparent;
+    border: 0px;
+    height: 12px;
+}
+
+    #tblMWCD_SalesBy_L52_All1 > thead > tr > th:nth-child(4) {
+        padding-right: 21px;
+    }
+
+    #tblMWCD_SalesBy_L52_All1 > thead > tr > th:nth-child(5) {
+        padding-right: 13px;
+    }
+
+#tblMWCD_SalesBy_L52_All1 > tbody > tr > td:nth-child(6) {
+    padding-right: 8px;
+}
+
+
+/*#MWCD_SalesBy_All1_All1_filters .ui-multiselect-checkboxes span {
+    font-size: 14px;
+}*/
+
+/*Blockbuster Home Hotspot Start*/
+
+.BB1 {
+    position: absolute;
+    margin-left: 63px;
+    margin-top: 188px;
+    width: 172px;
+    height: 111px;
+    border: 0px solid blue;
+}
+
+.BB2 {
+    position: absolute;
+    margin-left: 239px;
+    margin-top: 188px;
+    width: 166px;
+    height: 111px;
+    border: 0px solid orange;
+}
+
+.BB3 {
+    position: absolute;
+    margin-left: 410px;
+    margin-top: 187px;
+    width: 166px;
+    height: 111px;
+    border: 0px solid gray;
+}
+
+.BB4 {
+    position: absolute;
+    margin-left: 580px;
+    margin-top: 188px;
+    width: 167px;
+    height: 111px;
+    border: 0px solid red;
+}
+
+.BB5 {
+    position: absolute;
+    margin-left: 751px;
+    margin-top: 188px;
+    width: 172px;
+    height: 111px;
+    border: 0px solid green;
+}
+
+.BB6 {
+    position: absolute;
+    margin-left: 63px;
+    margin-top: 303px;
+    width: 172px;
+    height: 107px;
+    border: 0px solid brown;
+}
+
+.BB7 {
+    position: absolute;
+    margin-left: 239px;
+    margin-top: 303px;
+    width: 167px;
+    height: 108px;
+    border: 0px solid lightgray;
+}
+
+.BB8 {
+    position: absolute;
+    margin-left: 410px;
+    margin-top: 303px;
+    width: 166px;
+    height: 108px;
+    border: 0px solid aqua;
+}
+
+.BB9 {
+    position: absolute;
+    margin-left: 580px;
+    margin-top: 303px;
+    width: 168px;
+    height: 108px;
+    border: 0px solid darkorange;
+}
+
+.BB10 {
+    position: absolute;
+    margin-left: 63px;
+    margin-top: 415px;
+    width: 172px;
+    height: 111px;
+    border: 0px solid lightblue;
+}
+
+.BB11 {
+    position: absolute;
+    margin-left: 238px;
+    margin-top: 415px;
+    width: 167px;
+    height: 111px;
+    border: 0px solid darkred;
+}
+
+.BB12 {
+    position: absolute;
+    margin-left: 409px;
+    margin-top: 414px;
+    width: 167px;
+    height: 111px;
+    border: 0px solid pink;
+}
+
+.BB13 {
+    position: absolute;
+    margin-left: 580px;
+    margin-top: 415px;
+    width: 168px;
+    height: 111px;
+    border: 0px solid slateblue;
+}
+
+/*Blockbuster Home Hotspot End*/
+
+
+/*Why Blockbuster Page 3 Hotspot Start*/
+.WBB1 {
+    position: absolute;
+    margin-left: 63px;
+    margin-top: 131px;
+    width: 283px;
+    height: 116px;
+    border: 0px solid orange;
+}
+
+.WBB2 {
+    position: absolute;
+    margin-left: 63px;
+    margin-top: 250px;
+    width: 283px;
+    height: 111px;
+    border: 0px solid orange;
+}
+
+.WBB3 {
+    position: absolute;
+    margin-left: 63px;
+    margin-top: 363px;
+    width: 283px;
+    height: 111px;
+    border: 0px solid green;
+}
+
+.WBB4 {
+    position: absolute;
+    margin-left: 63px;
+    margin-top: 477px;
+    width: 284px;
+    height: 108px;
+    border: 0px solid red;
+}
+
+.WBB5 {
+    position: absolute;
+    margin-left: 349px;
+    margin-top: 131px;
+    width: 286px;
+    height: 115px;
+    border: 0px solid green;
+}
+
+.WBB6 {
+    position: absolute;
+    margin-left: 349px;
+    margin-top: 250px;
+    width: 286px;
+    height: 110px;
+    border: 0px solid yellow;
+}
+
+.WBB7 {
+    position: absolute;
+    margin-left: 349px;
+    margin-top: 363px;
+    width: 285px;
+    height: 110px;
+    border: 0px solid black;
+}
+
+.WBB8 {
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 476px;
+    width: 284px;
+    height: 109px;
+    border: 0px solid purple;
+}
+
+.WBB9 {
+    position: absolute;
+    margin-left: 638px;
+    margin-top: 132px;
+    width: 291px;
+    height: 115px;
+    border: 0px solid orange;
+}
+
+.WBB10 {
+    position: absolute;
+    margin-left: 638px;
+    margin-top: 250px;
+    width: 291px;
+    height: 111px;
+    border: 0px solid pink;
+}
+
+.WBB11 {
+    position: absolute;
+    margin-left: 637px;
+    margin-top: 364px;
+    width: 292px;
+    height: 107px;
+    border: 0px solid lightblue;
+}
+
+.WBB12 {
+    position: absolute;
+    margin-left: 635px;
+    margin-top: 475px;
+    width: 295px;
+    height: 110px;
+    border: 0px solid darkred;
+}
+
+
+/*Why Blockbuster Page 3 Hotspot End*/
+
+
+
+/*Why Blockbuster Page 4 Hotspot Start*/
+.WBB13 {
+    position: absolute;
+    margin-left: 63px;
+    margin-top: 131px;
+    width: 283px;
+    height: 116px;
+    border: 0px solid orange;
+}
+
+.WBB14 {
+    position: absolute;
+    margin-left: 63px;
+    margin-top: 250px;
+    width: 283px;
+    height: 111px;
+    border: 0px solid orange;
+}
+
+.WBB15 {
+    position: absolute;
+    margin-left: 63px;
+    margin-top: 363px;
+    width: 283px;
+    height: 111px;
+    border: 0px solid green;
+}
+
+.WBB16 {
+    position: absolute;
+    margin-left: 63px;
+    margin-top: 477px;
+    width: 284px;
+    height: 108px;
+    border: 0px solid red;
+}
+
+.WBB17 {
+    position: absolute;
+    margin-left: 349px;
+    margin-top: 131px;
+    width: 286px;
+    height: 115px;
+    border: 0px solid green;
+}
+
+.WBB18 {
+    position: absolute;
+    margin-left: 349px;
+    margin-top: 250px;
+    width: 286px;
+    height: 110px;
+    border: 0px solid yellow;
+}
+
+.WBB19 {
+    position: absolute;
+    margin-left: 349px;
+    margin-top: 363px;
+    width: 285px;
+    height: 110px;
+    border: 0px solid black;
+}
+
+.WBB20 {
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 476px;
+    width: 284px;
+    height: 109px;
+    border: 0px solid purple;
+}
+
+.WBB21 {
+    position: absolute;
+    margin-left: 638px;
+    margin-top: 132px;
+    width: 291px;
+    height: 115px;
+    border: 0px solid orange;
+}
+
+.WBB22 {
+    position: absolute;
+    margin-left: 638px;
+    margin-top: 250px;
+    width: 291px;
+    height: 111px;
+    border: 0px solid pink;
+}
+
+.WBB23 {
+    position: absolute;
+    margin-left: 637px;
+    margin-top: 364px;
+    width: 292px;
+    height: 107px;
+    border: 0px solid lightblue;
+}
+
+.WBB24 {
+    position: absolute;
+    margin-left: 635px;
+    margin-top: 475px;
+    width: 295px;
+    height: 110px;
+    border: 0px solid darkred;
+}
+
+/*Why Blockbuster Page 4 Hotspot End*/
+
+
+/*Why Blockbuster Page 5 Hotspot Start*/
+.WBB25 {
+    position: absolute;
+    margin-left: 65px;
+    margin-top: 131px;
+    width: 283px;
+    height: 116px;
+    border: 0px solid orange;
+}
+
+.WBB26 {
+    position: absolute;
+    margin-left: 65px;
+    margin-top: 250px;
+    width: 283px;
+    height: 111px;
+    border: 0px solid orange;
+}
+
+.WBB27 {
+    position: absolute;
+    margin-left: 352px;
+    margin-top: 133px;
+    width: 283px;
+    height: 113px;
+    border: 0px solid green;
+}
+
+.WBB28 {
+    position: absolute;
+    margin-left: 351px;
+    margin-top: 251px;
+    width: 284px;
+    height: 108px;
+    border: 0px solid red;
+}
+
+.WBB29 {
+    position: absolute;
+    margin-left: 638px;
+    margin-top: 132px;
+    width: 286px;
+    height: 114px;
+    border: 0px solid green;
+}
+
+.WBB30 {
+    position: absolute;
+    margin-left: 638px;
+    margin-top: 250px;
+    width: 286px;
+    height: 109px;
+    border: 0px solid yellow;
+}
+
+/*Why Blockbuster Page 5 Hotspot End*/
+
+/*Why Blockbuster Page 6 Hotspot Start*/
+
+.WBB31 {
+    position: absolute;
+    margin-left: 63px;
+    margin-top: 131px;
+    width: 283px;
+    height: 116px;
+    border: 0px solid orange;
+}
+
+.WBB32 {
+    position: absolute;
+    margin-left: 69px;
+    margin-top: 250px;
+    width: 280px;
+    height: 111px;
+    border: 0px solid orange;
+}
+
+.WBB33 {
+    position: absolute;
+    margin-left: 69px;
+    margin-top: 364px;
+    width: 280px;
+    height: 116px;
+    border: 0px solid orange;
+}
+
+.WBB34 {
+    position: absolute;
+    margin-left: 353px;
+    margin-top: 136px;
+    width: 280px;
+    height: 111px;
+    border: 0px solid orange;
+}
+
+.WBB35 {
+    position: absolute;
+    margin-left: 353px;
+    margin-top: 251px;
+    width: 280px;
+    height: 107px;
+    border: 0px solid lightblue;
+}
+
+.WBB36 {
+    position: absolute;
+    margin-left: 349px;
+    margin-top: 363px;
+    width: 285px;
+    height: 110px;
+    border: 0px solid black;
+}
+
+.WBB37 {
+    position: absolute;
+    margin-left: 637px;
+    margin-top: 136px;
+    width: 285px;
+    height: 110px;
+    border: 0px solid black;
+}
+
+.WBB38 {
+    position: absolute;
+    margin-left: 637px;
+    margin-top: 250px;
+    width: 283px;
+    height: 111px;
+    border: 0px solid orange;
+}
+/*Why Blockbuster Page 6 Hotspot End*/
+
+
+
+/*Innovation Home Hotspot Start*/
+
+.InnoMMHazelnut {
+    position: absolute;
+    margin-left: 62px;
+    margin-top: 131px;
+    width: 287px;
+    height: 116px;
+    border: 0px solid purple;
+}
+
+.InnoTwixTriple {
+    position: absolute;
+    margin-left: 353px;
+    margin-top: 130px;
+    width: 279px;
+    height: 116px;
+    border: 0px solid yellow;
+}
+
+.Inno3MusketBDay {
+    position: absolute;
+    margin-left: 637px;
+    margin-top: 131px;
+    width: 292px;
+    height: 116px;
+    border: 0px solid teal;
+}
+
+.InnoSnickersSaltySweet {
+    position: absolute;
+    margin-left: 352px;
+    margin-top: 250px;
+    width: 282px;
+    height: 108px;
+    border: 0px solid green;
+}
+
+.InnoSnickersCreamy {
+    position: absolute;
+    margin-left: 62px;
+    margin-top: 250px;
+    width: 287px;
+    height: 108px;
+    border: 0px solid green;
+}
+.InnoCombos {
+    position: absolute;
+    margin-left: 637px;
+    margin-top: 251px;
+    width: 292px;
+    height: 107px;
+    border: 0px solid blue;
+}
+
+.InnoSkittlesDark {
+    position: absolute;
+    margin-left: 62px;
+    margin-top: 361px;
+    width: 287px;
+    height: 109px;
+    border: 0px solid black;
+}
+
+.InnoStarburstDuos {
+    position: absolute;
+    margin-left: 352px;
+    margin-top: 362px;
+    width: 281px;
+    height: 59px;
+    border: 0px solid pink;
+}
+.InnoStarburstPink {
+    position: absolute;
+    margin-left: 352px;
+    margin-top: 422px;
+    width: 281px;
+    height: 48px;
+    border: 0px solid pink;
+}
+
+.InnoOrbitFreeze {
+    position: absolute;
+    margin-left: 637px;
+    margin-top: 361px;
+    width: 292px;
+    height: 109px;
+    border: 0px solid maroon;
+}
+
+.InnoExtraRefresh {
+    position: absolute;
+    margin-left: 62px;
+    margin-top: 473px;
+    width: 287px;
+    height: 113px;
+    border: 0px solid red;
+}
+
+.Inno5Extra {
+    position: absolute;
+    margin-left: 352px;
+    margin-top: 473px;
+    width: 282px;
+    height: 113px;
+    border: 0px solid orange;
+}
+
+.Inno5Extraa {
+    position: absolute;
+    margin-left: 637px;
+    margin-top: 473px;
+    width: 293px;
+    height: 113px;
+    border: 0px solid orange;
+}
+
+
+/*Innovation Home Hotspot End*/
+
+/*Merchandising Home Hotspot Start*/
+
+.MerchHotSpot1 {
+    position: absolute;
+    margin-left: 235px;
+    margin-top: 386px;
+    width: 88px;
+    height: 34px;
+    border: 0px solid orange;
+}
+
+.MerchHotSpot2a {
+    position: absolute;
+    margin-left: 212px;
+    margin-top: 244px;
+    width: 53px;
+    height: 42px;
+    border: 0px solid blue;
+}
+
+.MerchHotSpot2b {
+    position: absolute;
+    margin-left: 267px;
+    margin-top: 244px;
+    width: 53px;
+    height: 42px;
+    border: 0px solid red;
+}
+
+.MerchHotSpot3 {
+    position: absolute;
+    margin-left: 362px;
+    margin-top: 144px;
+    width: 86px;
+    height: 35px;
+    border: 0px solid green;
+}
+
+
+/*Merchandising Home Hotspot End*/
+
+/*MSA Participating Pop UPS Start*/
+
+.PopupDistribution {
+    position: absolute;
+    width: 323px;
+    height: 259px;
+    border: 0px solid red;
+}
+
+.PopupSpeedMarketInnovation {
+    position: absolute;
+    width: 323px;
+    height: 259px;
+    margin-left: 333px;
+    border: 0px solid orange;
+}
+
+.PopupSecondaryFrontRegister {
+    position: absolute;
+    width: 323px;
+    height: 259px;
+    margin-left: 666px;
+    border: 0px solid yellow;
+}
+
+.PopupSecondaryDisplay {
+    position: absolute;
+    width: 323px;
+    height: 259px;
+    margin-top: 418px;
+    border: 0px solid green;
+}
+
+.PopupShippers {
+    position: absolute;
+    width: 323px;
+    height: 259px;
+    margin-top: 418px;
+    margin-left: 333px;
+    border: 0px solid blue;
+}
+
+.PopupSeasonal {
+    position: absolute;
+    width: 323px;
+    height: 259px;
+    margin-top: 418px;
+    margin-left: 666px;
+    border: 0px solid pink;
+}
+
+.PopupPotentialPayOut {
+    position: absolute;
+    width: 983px;
+    height: 141px;
+    margin-left: 0px;
+    margin-top: 268px;
+    border: 0px solid purple;
+}
+
+.JanPopup {
+    position: absolute;
+    width: 151px;
+    height: 356px;
+    margin-left: 35px;
+    margin-top: 118px;
+    border: 0px solid blue;
+}
+
+.FebPopup {
+    position: absolute;
+    width: 150px;
+    height: 436px;
+    margin-left: 190px;
+    margin-top: 117px;
+    border: 0px solid teal;
+}
+
+.MarchPopup {
+    position: absolute;
+    width: 150px;
+    height: 458px;
+    margin-left: 344px;
+    margin-top: 117px;
+    border: 0px solid aqua;
+}
+
+.AprilPopup {
+    position: absolute;
+    width: 148px;
+    height: 379px;
+    margin-left: 496px;
+    margin-top: 118px;
+    border: 0px solid red;
+}
+
+.MayPopup {
+    position: absolute;
+    width: 147px;
+    height: 509px;
+    margin-left: 648px;
+    margin-top: 118px;
+    border: 0px solid yellow;
+}
+
+.JunePopup {
+    position: absolute;
+    width: 155px;
+    height: 380px;
+    margin-left: 800px;
+    margin-top: 119px;
+    border: 0px solid orange;
+}
+
+.JulyPopup {
+    position: absolute;
+    width: 151px;
+    height: 356px;
+    margin-left: 35px;
+    margin-top: 118px;
+    border: 0px solid blue;
+}
+
+.AugPopup {
+    position: absolute;
+    width: 150px;
+    height: 436px;
+    margin-left: 190px;
+    margin-top: 117px;
+    border: 0px solid teal;
+}
+
+.SeptPopup {
+    position: absolute;
+    width: 150px;
+    height: 458px;
+    margin-left: 344px;
+    margin-top: 117px;
+    border: 0px solid aqua;
+}
+
+.OctPopup {
+    position: absolute;
+    width: 148px;
+    height: 379px;
+    margin-left: 496px;
+    margin-top: 118px;
+    border: 0px solid red;
+}
+
+.NovPopup {
+    position: absolute;
+    width: 147px;
+    height: 509px;
+    margin-left: 648px;
+    margin-top: 118px;
+    border: 0px solid yellow;
+}
+
+.DecPopup {
+    position: absolute;
+    width: 155px;
+    height: 380px;
+    margin-left: 800px;
+    margin-top: 119px;
+    border: 0px solid orange;
+}
+
+.MalterShare {
+    position: absolute;
+    width: 306px;
+    height: 143px;
+    margin-left: 34px;
+    margin-top: 155px;
+    border: 0px solid yellow;
+}
+
+.MalterSingle {
+    position: absolute;
+    width: 295px;
+    height: 143px;
+    margin-left: 343px;
+    margin-top: 156px;
+    border: 0px solid orange;
+}
+
+.SnickersPeanut {
+    position: absolute;
+    width: 295px;
+    height: 143px;
+    margin-left: 643px;
+    margin-top: 156px;
+    border: 0px solid blue;
+}
+
+.SkittlesSweet {
+    position: absolute;
+    width: 306px;
+    height: 143px;
+    margin-left: 34px;
+    margin-top: 304px;
+    border: 0px solid pink;
+}
+
+.StarburstSweet {
+    position: absolute;
+    width: 294px;
+    height: 143px;
+    margin-left: 343px;
+    margin-top: 303px;
+    border: 0px solid gray;
+}
+
+.AlertCaffeine {
+    position: absolute;
+    width: 294px;
+    height: 143px;
+    margin-left: 643px;
+    margin-top: 304px;
+    border: 0px solid black;
+}
+
+.JuicyFruit {
+    position: absolute;
+    width: 306px;
+    height: 143px;
+    margin-left: 34px;
+    margin-top: 451px;
+    border: 0px solid crimson;
+}
+
+.ExtraChewyPeppermint {
+    position: absolute;
+    width: 295px;
+    height: 143px;
+    margin-left: 343px;
+    margin-top: 451px;
+    border: 0px solid navy;
+}
+
+.ExtraChewyPolarIce {
+    position: absolute;
+    width: 295px;
+    height: 143px;
+    margin-left: 640px;
+    margin-top: 451px;
+    border: 0px solid purple;
+}
+
+/*MSA Participating Pop UPS End*/
+
+/*MSA PART HOTSPOT START*/
+.PerfRewardsMSA{
+    position: absolute;
+    width: 838px;
+    height: 103px;
+    margin-left: 0px;
+    margin-top: 268px;
+    border: 0px solid purple;
+}
+
+.EarlyEnrollMSA {
+    position: absolute;
+    width: 984px;
+    height: 29px;
+    margin-left: 0px;
+    margin-top: 379px;
+    border: 0px solid purple;
+}
+.DistributionConsumptionMSA {
+    position: absolute;
+    width: 323px;
+    height: 256px;
+    margin-left: 0px;
+    margin-top: 0px;
+    border: 0px solid purple;
+}
+.Disp14FacingMSA {
+    position: absolute;
+    width: 62px;
+    height: 187px;
+    margin-left: 343px;
+    margin-top: 44px;
+    border: 0px solid purple;
+}
+.Disp7FacingMSA {
+    position: absolute;
+    width: 54px;
+    height: 187px;
+    margin-left: 409px;
+    margin-top: 44px;
+    border: 0px solid purple;
+}
+.DispGumValMSA {
+    position: absolute;
+    width: 54px;
+    height: 187px;
+    margin-left: 468px;
+    margin-top: 44px;
+    border: 0px solid purple;
+}
+.Disp8TierMSA {
+    position: absolute;
+    width: 55px;
+    height: 187px;
+    margin-left: 527px;
+    margin-top: 44px;
+    border: 0px solid purple;
+}
+.Disp4TierMSA {
+    position: absolute;
+    width: 62px;
+    height: 187px;
+    margin-left: 586px;
+    margin-top: 44px;
+    border: 0px solid purple;
+}
+.ShipperProgram {
+    position: absolute;
+    width: 321px;
+    height: 256px;
+    margin-left: 664px;
+    margin-top: 0px;
+    border: 0px solid purple;
+}
+.CounterUnitProgram {
+    position: absolute;
+    width: 322px;
+    height: 258px;
+    margin-left: 0px;
+    margin-top: 417px;
+    border: 0px solid purple;
+}
+.SeasonalEHC {
+    position: absolute;
+    width: 322px;
+    height: 256px;
+    margin-left: 332px;
+    margin-top: 419px;
+    border: 0px solid purple;
+}
+.SpeedtoMarketMSA {
+    position: absolute;
+    width: 319px;
+    height: 256px;
+    margin-left: 666px;
+    margin-top: 419px;
+    border: 0px solid purple;
+}
+
+.ShipperJan {
+    position: absolute;
+    width: 135px;
+    height: 342px;
+    margin-left: 33px;
+    margin-top: 129px;
+    border: 0px solid purple;
+}
+.ShipperFeb {
+    position: absolute;
+    width: 123px;
+    height: 457px;
+    margin-left: 173px;
+    margin-top: 130px;
+    border: 0px solid purple;
+}
+
+.ShipperMarch {
+    position: absolute;
+    width: 124px;
+    height: 427px;
+    margin-left: 301px;
+    margin-top: 134px;
+    border: 0px solid purple;
+}
+
+.ShipperApr {
+    position: absolute;
+    width: 123px;
+    height: 407px;
+    margin-left: 432px;
+    margin-top: 134px;
+    border: 0px solid purple;
+}
+.ShipperMay {
+    position: absolute;
+    width: 123px;
+    height: 441px;
+    margin-left: 560px;
+    margin-top: 136px;
+    border: 0px solid purple;
+}
+.ShipperJune {
+    position: absolute;
+    width: 122px;
+    height: 382px;
+    margin-left: 690px;
+    margin-top: 135px;
+    border: 0px solid purple;
+}
+.ShipperJuly {
+    position: absolute;
+    width: 129px;
+    height: 344px;
+    margin-left: 38px;
+    margin-top: 132px;
+    border: 0px solid purple;
+}
+.ShipperAug {
+    position: absolute;
+    width: 123px;
+    height: 290px;
+    margin-left: 173px;
+    margin-top: 131px;
+    border: 0px solid purple;
+}
+
+.ShipperSept {
+    position: absolute;
+    width: 122px;
+    height: 411px;
+    margin-left: 303px;
+    margin-top: 131px;
+    border: 0px solid purple;
+}
+.ShipperOct {
+    position: absolute;
+    width: 124px;
+    height: 328px;
+    margin-left: 431px;
+    margin-top: 132px;
+    border: 0px solid purple;
+}
+.ShipperNov {
+    position: absolute;
+    width: 123px;
+    height: 361px;
+    margin-left: 560px;
+    margin-top: 132px;
+    border: 0px solid purple;
+}
+.ShipperDec {
+    position: absolute;
+    width: 123px;
+    height: 319px;
+    margin-left: 689px;
+    margin-top: 131px;
+    border: 0px solid purple;
+}
+.ShipperEveryDay {
+    position: absolute;
+    width: 131px;
+    height: 444px;
+    margin-left: 819px;
+    margin-top: 134px;
+    border: 0px solid purple;
+}
+
+.CounterJan {
+    position: absolute;
+    width: 130px;
+    height: 261px;
+    margin-left: 37px;
+    margin-top: 156px;
+    border: 0px solid purple;
+}
+.CounterFeb {
+    position: absolute;
+    width: 122px;
+    height: 393px;
+    margin-left: 174px;
+    margin-top: 110px;
+    border: 0px solid purple;
+}
+
+.CounterMarch {
+    position: absolute;
+    width: 123px;
+    height: 303px;
+    margin-left: 302px;
+    margin-top: 124px;
+    border: 0px solid purple;
+}
+
+.CounterApr {
+    position: absolute;
+    width: 122px;
+    height: 222px;
+    margin-left: 432px;
+    margin-top: 148px;
+    border: 0px solid purple;
+}
+
+.CounterMay {
+    position: absolute;
+    width: 122px;
+    height: 287px;
+    margin-left: 561px;
+    margin-top: 152px;
+    border: 0px solid purple;
+}
+
+.CounterJune {
+    position: absolute;
+    width: 123px;
+    height: 319px;
+    margin-left: 689px;
+    margin-top: 131px;
+    border: 0px solid purple;
+}
+
+.CounterJuly {
+    position: absolute;
+    width: 129px;
+    height: 344px;
+    margin-left: 38px;
+    margin-top: 106px;
+    border: 0px solid purple;
+}
+
+.CounterAug {
+    position: absolute;
+    width: 122px;
+    height: 312px;
+    margin-left: 174px;
+    margin-top: 155px;
+    border: 0px solid purple;
+}
+
+.CounterSept {
+    position: absolute;
+    width: 122px;
+    height: 285px;
+    margin-left: 303px;
+    margin-top: 166px;
+    border: 0px solid purple;
+}
+.CounterOct {
+    position: absolute;
+    width: 122px;
+    height: 259px;
+    margin-left: 432px;
+    margin-top: 160px;
+    border: 0px solid purple;
+}
+
+.CounterNov {
+    position: absolute;
+    width: 122px;
+    height: 450px;
+    margin-left: 560px;
+    margin-top: 111px;
+    border: 0px solid purple;
+}
+
+.CounterDec {
+    position: absolute;
+    width: 122px;
+    height: 270px;
+    margin-left: 690px;
+    margin-top: 166px;
+    border: 0px solid purple;
+}
+.CounterEveryDay {
+    position: absolute;
+    width: 134px;
+    height: 270px;
+    margin-left: 819px;
+    margin-top: 154px;
+    border: 0px solid purple;
+}
+
+
+
+.SeasonalEaster {
+    position: absolute;
+    width: 319px;
+    height: 298px;
+    margin-left: 20px;
+    margin-top: 305px;
+    border: 0px solid purple;
+}
+.SeasonalHalloween {
+    position: absolute;
+    width: 301px;
+    height: 299px;
+    margin-left: 343px;
+    margin-top: 305px;
+    border: 0px solid purple;
+}
+.SeasonalChristmas {
+    position: absolute;
+    width: 318px;
+    height: 290px;
+    margin-left: 647px;
+    margin-top: 305px;
+    border: 0px solid purple;
+}
+
+
+
+/*2019 NON MSA PART HOTSPOT START*/
+
+.PerfRewardsContract {
+    position: absolute;
+    width: 482px;
+    height: 330px;
+    margin-left: 0px;
+    margin-top: 0px;
+    border: 0px solid purple;
+}
+
+.DistributionConsumption {
+    position: absolute;
+    width: 482px;
+    height: 330px;
+    margin-left: 496px;
+    margin-top: 0px;
+    border: 0px solid purple;
+}
+
+.SpeedtoMarketInno {
+    position: absolute;
+    width: 482px;
+    height: 330px;
+    margin-left: 496px;
+    margin-top: 344px;
+    border: 0px solid purple;
+}
+
+.SecondaryDisp14Facing{
+    position: absolute;
+    width: 87px;
+    height: 244px;
+    margin-left: 30px;
+    margin-top: 406px;
+    border: 0px solid purple;
+}
+
+.SecondaryDisp7Facing {
+    position: absolute;
+    width: 78px;
+    height: 242px;
+    margin-left: 122px;
+    margin-top: 406px;
+    border: 0px solid purple;
+}
+.SecondaryDispGumVal{
+    position: absolute;
+    width: 80px;
+    height: 245px;
+    margin-left: 205px;
+    margin-top: 406px;
+    border: 0px solid purple;
+}
+.SecondaryDisp8Tier {
+    position: absolute;
+    width: 78px;
+    height: 243px;
+    margin-left: 290px;
+    margin-top: 406px;
+    border: 0px solid purple;
+}
+.SecondaryDisp4Tier{
+    position: absolute;
+    width: 90px;
+    height: 243px;
+    margin-left: 373px;
+    margin-top: 406px;
+    border: 0px solid purple;
+}
+
+.SpeedtoMarket1 {
+    position: absolute;
+    width: 219px;
+    height: 218px;
+    margin-left: 36px;
+    margin-top: 134px;
+    border: 0px solid purple;
+}
+
+.SpeedtoMarket2 {
+    position: absolute;
+    width: 219px;
+    height: 221px;
+    margin-left: 37px;
+    margin-top: 367px;
+    border: 0px solid purple;
+}
+.SpeedtoMarket3 {
+    position: absolute;
+    width: 213px;
+    height: 217px;
+    margin-left: 270px;
+    margin-top: 134px;
+    border: 0px solid purple;
+}
+.SpeedtoMarket4 {
+    position: absolute;
+    width: 214px;
+    height: 221px;
+    margin-left: 271px;
+    margin-top: 367px;
+    border: 0px solid purple;
+}
+.SpeedtoMarket5 {
+    position: absolute;
+    width: 212px;
+    height: 217px;
+    margin-left: 498px;
+    margin-top: 134px;
+    border: 0px solid purple;
+}
+.SpeedtoMarket6 {
+    position: absolute;
+    width: 226px;
+    height: 205px;
+    margin-left: 728px;
+    margin-top: 133px;
+    border: 0px solid purple;
+}
+.SpeedtoMarket7 {
+    position: absolute;
+    width: 219px;
+    height: 222px;
+    margin-left: 497px;
+    margin-top: 367px;
+    border: 0px solid purple;
+}
+
+/*2019 NON MSA HOTSPOTS END*/
+
+
+/*NON MSA Participating Popups Start*/
+
+.NONMSA_PopupDist {
+    position: absolute;
+    width: 488px;
+    height: 258px;
+    margin-left: 0px;
+    border: 0px solid red;
+}
+
+.NONMSA_PopupInno {
+    position: absolute;
+    width: 490px;
+    height: 258px;
+    margin-left: 496px;
+    border: 0px solid orange;
+}
+
+.NONMSA_PopupOrange {
+    position: absolute;
+    width: 488px;
+    height: 259px;
+    margin-left: 0px;
+    margin-top: 417px;
+    border: 0px solid yellow;
+}
+
+.NONMSA_PopupBlue {
+    position: absolute;
+    width: 490px;
+    height: 259px;
+    margin-top: 418px;
+    margin-left: 496px;
+    border: 0px solid green;
+}
+
+.NONMSA_MalterShare {
+    position: absolute;
+    width: 222px;
+    height: 207px;
+    margin-top: 159px;
+    margin-left: 40px;
+    border: 0px solid blue;
+}
+
+.NONMSA_Snickers {
+    position: absolute;
+    width: 221px;
+    height: 207px;
+    margin-top: 159px;
+    margin-left: 267px;
+    border: 0px solid red;
+}
+
+.NONMSA_Skittles {
+    position: absolute;
+    width: 220px;
+    height: 207px;
+    margin-top: 159px;
+    margin-left: 493px;
+    border: 0px solid green;
+}
+
+.NONMSA_Starburst {
+    position: absolute;
+    width: 233px;
+    height: 207px;
+    margin-top: 159px;
+    margin-left: 718px;
+    border: 0px solid pink;
+}
+
+.NONMSA_JuicyFruit {
+    position: absolute;
+    width: 222px;
+    height: 207px;
+    margin-top: 371px;
+    margin-left: 40px;
+    border: 0px solid black;
+}
+
+.NONMSA_Peppermint {
+    position: absolute;
+    width: 221px;
+    height: 217px;
+    margin-top: 371px;
+    margin-left: 267px;
+    border: 0px solid orange;
+}
+
+.NONMSA_PolarIce {
+    position: absolute;
+    width: 220px;
+    height: 217px;
+    margin-top: 371px;
+    margin-left: 493px;
+    border: 0px solid gray;
+}
+
+/*NON MSA Participating Popups End*/
+
+
+/*Promotions*/
+
+
+div#MWCD_CStore_Sales_StorePromo1 table.custom {
+    margin-top: 178px;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+    div#MWCD_CStore_Sales_StorePromo1 table.custom tbody {
+        max-height: 301px;
+    }
+
+        div#MWCD_CStore_Sales_StorePromo1 table.custom tbody tr td {
+            font-size: 14px;
+            text-align: left;
+        }
+
+
+div#MWCD_CStore_Sales_StorePromo1 table.custom {
+    width: 900px;
+    border-bottom: 0;
+    border-top: 0;
+}
+
+    div#MWCD_CStore_Sales_StorePromo1 table.custom tbody tr td:nth-child(5), div#MWCD_CStore_Sales_StorePromo1 table.custom tbody tr td:nth-child(4), div#MWCD_CStore_Sales_StorePromo1 table.custom tbody tr td:nth-child(3) {
+        text-align: center;
+    }
+
+div#MWCD_CStore_Sales_StorePromo1 table.storePromotions {
+    margin-left: 41px;
+}
+
+#tblMSF_StoreLevelPromo_All1 > tbody > tr > td {
+    vertical-align: middle;
+}
+
+/*
+     SUGGESTED ORDER
+*/
+
+#MWCD_CStore_Sales_SuggOrder1 > div:nth-child(1) > button {
+    margin-top: 133px;
+    margin-left: 40px;
+    position: absolute;
+}
+
+div.table {
+    display: table;
+}
+
+div.tr {
+    display: table-row;
+}
+
+div.td {
+    display: table-cell;
+}
+
+
+
+#tblSugOrd_All1 {
+    margin-top: 169px;
+    margin-left: 40px;
+    border: 0;
+}
+
+    #tblSugOrd_All1 > thead > tr > th {
+        height: 18px;
+        border: 1px solid transparent;
+        background-color: transparent;
+    }
+
+
+        #tblSugOrd_All1 > thead > tr > th:nth-child(1) {
+            visibility: hidden;
+        }
+
+        #tblSugOrd_All1 > thead > tr > th:nth-child(5) {
+            padding-right: 18px;
+        }
+
+    #tblSugOrd_All1 > tbody {
+        max-height: 246px;
+    }
+
+        #tblSugOrd_All1 > tbody > tr > td {
+            vertical-align: middle;
+            background-color: #E2D7D1;
+            border-color: #E2D7D1;
+            border-bottom: 6px solid #F3F4F4;
+            line-height: 17px !important;
+            padding-top: 3px;
+            padding-bottom: 3px;
+        }
+
+            #tblSugOrd_All1 > tbody > tr > td:nth-child(2) {
+                text-align: left;
+            }
+
+            #tblSugOrd_All1 > tbody > tr > td:nth-child(3),
+            #tblSugOrd_All1 > tbody > tr > td:nth-child(4),
+            #tblSugOrd_All1 > tbody > tr > td:nth-child(5) {
+                text-align: center;
+            }
+
+            #tblSugOrd_All1 > tbody > tr > td:nth-child(6),
+            #tblSugOrd_All1 > tbody > tr > td:nth-child(7),
+            #tblSugOrd_All1 > tbody > tr > td:nth-child(8) {
+                display: none;
+            }
+
+            #tblSugOrd_All1 > tbody > tr > td:nth-child(2) {
+                padding-left: 6px;
+            }
+
+div#OverView {
+    color: white;
+    position: absolute;
+    left: -272px;
+    top: 262px;
+    margin-left: 672px;
+    margin-top: 25px;
+    border: 0px solid red;
+    font-size: 23px;
+}
+
+#sgDVORP {
+    position: absolute;
+    top: 103px;
+    left: 483px;
+    width: 50px;
+    z-index: 1;
+    color: white;
+}
+
+#sgDVORPContent {
+    text-align: center;
+    width: 50px;
+}
+
+#sgDVCI {
+    position: absolute;
+    top: 23px;
+    left: 483px;
+    width: 50px;
+    z-index: 1;
+    color: white;
+}
+
+#sgDVCIContent {
+    text-align: center;
+    width: 50px;
+}
+
+#sgSHCF {
+    position: absolute;
+    top: -56px;
+    left: 483px;
+    width: 50px;
+    z-index: 1;
+    color: white;
+}
+
+#sgSHCFContent {
+    text-align: center;
+    width: 50px;
+}
+
+
+/*
+    FAMILIES
+*/
+
+div#Families1 {
+    color: black;
+    position: absolute;
+    margin-left: -271px;
+    margin-top: 404px;
+    border: 0px solid red;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+div#Families2 {
+    color: black;
+    position: absolute;
+    margin-left: 32px;
+    margin-top: 402px;
+    border: 0px solid red;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+div#Families3 {
+    color: black;
+    position: absolute;
+    margin-left: 761px;
+    margin-top: 524px;
+    border: 0px solid red;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/*
+        FAMILY COUNT
+    */
+
+/*Blockbuster - Chocolate*/
+#blckChoc {
+    position: absolute;
+    top: 104px;
+    left: 468px;
+    width: 50px;
+    z-index: 1;
+}
+
+#blckChocContent {
+    text-align: center;
+}
+
+/*Blockbuster - Fruity Conf*/
+#blckFrtConf {
+    position: absolute;
+    top: 105px;
+    left: 540px;
+    width: 50px;
+    z-index: 1;
+}
+
+#blckFrtConfContent {
+    text-align: center;
+}
+
+/*Blockbuster - Gum/Mint*/
+#blckGumMnt {
+    position: absolute;
+    top: 142px;
+    left: 492px;
+    width: 50px;
+    z-index: 1;
+}
+
+#blckGumMntContent {
+    text-align: center;
+}
+
+/*Extended - Chocolate */
+#extChoc {
+    position: absolute;
+    top: 125px;
+    left: 456px;
+    width: 50px;
+    z-index: 1;
+}
+
+#extChocContent {
+    text-align: center;
+}
+
+
+/*Extended - Fruity Conf */
+#extFrtConf {
+    position: absolute;
+    top: 127px;
+    left: 526px;
+    width: 50px;
+    z-index: 1;
+}
+
+#extFrtConfContent {
+    text-align: center;
+}
+
+
+/*Blockbuster - Gum */
+
+#blckGum {
+    position: absolute;
+    top: 148px;
+    left: 461px;
+    width: 50px;
+    z-index: 1;
+}
+
+#blckGumContent {
+    text-align: center;
+}
+
+/*Extended - Gum */
+#extGum {
+    position: absolute;
+    top: 170px;
+    left: 447px;
+    width: 50px;
+    z-index: 1;
+}
+
+#extGumContent {
+    text-align: center;
+}
+
+/*Blockbuster - Mint */
+#blckMint {
+    position: absolute;
+    top: -16px;
+    left: 113px;
+    width: 50px;
+    z-index: 1;
+}
+
+#blckMintontent {
+    text-align: center;
+}
+
+/*Extended - Mint */
+#extMint {
+    position: absolute;
+    top: 4px;
+    left: 98px;
+    width: 50px;
+    z-index: 1;
+}
+
+#extMintContent {
+    text-align: center;
+}
+
+/*Innovation */
+#Innovation {
+    position: absolute;
+    top: 25px;
+    left: 69px;
+    width: 50px;
+    z-index: 1;
+}
+
+#InnovationContent {
+    text-align: center;
+}
+
+
+/*Extended - Gum/Mint */
+#extGumMnt {
+    position: absolute;
+    top: 121px;
+    left: 489px;
+    width: 50px;
+    z-index: 1;
+}
+
+#extGumMntContent {
+    text-align: center;
+}
+
+
+
+/*FC Chocolate & Fruity Conf*/
+#fcChocFrt {
+    position: absolute;
+    top: 139px;
+    left: 519px;
+    width: 50px;
+    z-index: 1;
+}
+
+#fcChocFrtContent {
+    text-align: center;
+}
+
+
+/*FC Priority - Chocolate*/
+#fcPrtyChoc {
+    position: absolute;
+    top: 147px;
+    left: 460px;
+    width: 50px;
+    z-index: 1;
+}
+
+#fcPrtyChocContent {
+    text-align: center;
+}
+
+
+/*FC Priority - Fruity Conf*/
+#fcPrtyFrtConf {
+    position: absolute;
+    top: 168px;
+    left: 509px;
+    width: 50px;
+    z-index: 1;
+}
+
+#fcPrtyFrtConfContent {
+    text-align: center;
+}
+
+
+/*IC Chocolate & Fruity Conf*/
+#icChocFrt {
+    position: absolute;
+    top: 122px;
+    left: 509px;
+    width: 50px;
+    z-index: 1;
+}
+
+#icChocFrtContent {
+    text-align: center;
+}
+
+/*IC Gum & Mint*/
+#icGumMnt {
+    position: absolute;
+    top: 140px;
+    left: 433px;
+    width: 50px;
+    z-index: 1;
+}
+
+#icGumMntContent {
+    text-align: center;
+}
+
+/*Snacking*/
+#snckng {
+    position: absolute;
+    top: 158px;
+    left: 400px;
+    width: 50px;
+    z-index: 1;
+}
+
+#snckngContent {
+    text-align: center;
+}
+
+/*Snacking - Priority*/
+#snckngPrty {
+    position: absolute;
+    top: 176px;
+    left: 460px;
+    width: 50px;
+    z-index: 1;
+}
+
+#snckngPrtyContent {
+    text-align: center;
+}
+
+#tblSugOrd_All1 > tbody > tr > td:nth-child(9) {
+    display: none;
+}
+
+
+/*██████████████████████████████████████████
+                Suggested Order Check box
+        ████████████████████████████████████████████*/
+
+#tblSugOrd_All1 input[type='checkbox'] {
+    -webkit-appearance: none;
+    width: 16px;
+    height: 16px;
+    /*border: 1px solid darkgray;*/
+    outline: none;
+    /*box-shadow:0 0 5px 0px gray inset;*/
+    background: white;
+    padding: 0 0 0 0px;
+    margin-right: 2px;
+    margin-top: 1px;
+}
+
+    #tblSugOrd_All1 input[type='checkbox']:hover {
+        box-shadow: 0 0 5px 0px orange inset;
+    }
+
+    #tblSugOrd_All1 input[type='checkbox']:before {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        /*margin: 10% auto;*/
+        /*padding: 0 0 0 0px;*/
+    }
+
+    #tblSugOrd_All1 input[type='checkbox']:checked:before {
+        background: #23B4E9;
+    }
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio: 2) {
+
+    #tblSugOrd_All1 input[type="checkbox"] {
+        border-radius: 0;
+    }
+}
+
+
+/*██████████████████████████████████████████
+                PDF CELLS
+        ████████████████████████████████████████████*/
+
+
+#cell1, #cell2, #cell3, #cell4, #cell5, #cell6, #cell7, #cell8, #cell9, #cell10, #cell11, #cell12,
+#cell13, #cell14, #cell15, #cell16, #cell17, #cell18, #cell19, #cell20 {
+    width: 226px;
+    height: 110px;
+    /*border: 1px solid black;*/
+    /*border-bottom: 2px solid #ababab;*/
+}
+
+
+#cell1 {
+    position: absolute;
+    top: 111px;
+    z-index: 1;
+    margin-left: 8px;
+    /*background-color: aquamarine;*/
+}
+
+#cell2 {
+    position: absolute;
+    top: 111px;
+    left: 255px;
+    z-index: 1;
+    /*background-color: cornflowerblue;*/
+}
+
+#cell3 {
+    position: absolute;
+    top: 111px;
+    left: 496px;
+    z-index: 1;
+    /*background-color: aquamarine;*/
+}
+
+#cell4 {
+    position: absolute;
+    top: 111px;
+    left: 741px;
+    z-index: 1;
+    /*background-color: cornflowerblue;*/
+}
+
+
+
+#cell5 {
+    position: absolute;
+    top: 249px;
+    left: 0px;
+    margin-left: 5px;
+    /*background-color: aquamarine;*/
+}
+
+#cell6 {
+    position: absolute;
+    top: 249px;
+    margin-left: 255px;
+    /*background-color: cornflowerblue;*/
+}
+
+#cell7 {
+    position: absolute;
+    top: 249px;
+    left: 496px;
+    /*background-color: aquamarine;*/
+}
+
+#cell8 {
+    position: absolute;
+    top: 249px;
+    left: 741px;
+    /*background-color: cornflowerblue;*/
+}
+
+
+
+
+
+
+#cell9 {
+    position: absolute;
+    top: 384px;
+    left: 0px;
+    margin-left: 5px;
+    /*background-color: aquamarine;*/
+}
+
+#cell10 {
+    position: absolute;
+    top: 384px;
+    left: 255px;
+    /*background-color: cornflowerblue;*/
+}
+
+#cell11 {
+    position: absolute;
+    top: 384px;
+    left: 496px;
+    /*background-color: aquamarine;*/
+}
+
+#cell12 {
+    position: absolute;
+    top: 384px;
+    left: 741px;
+    /*background-color: cornflowerblue;*/
+}
+
+
+
+
+
+#cell13 {
+    position: absolute;
+    top: 524px;
+    left: 0px;
+    margin-left: 5px;
+    /*background-color: aquamarine;*/
+}
+
+#cell14 {
+    position: absolute;
+    top: 524px;
+    left: 257px;
+    /*background-color: cornflowerblue;*/
+}
+
+#cell15 {
+    position: absolute;
+    top: 524px;
+    left: 502px;
+    /*background-color: aquamarine;*/
+}
+
+#cell16 {
+    position: absolute;
+    top: 524px;
+    left: 741px;
+    /*background-color: cornflowerblue;*/
+}
+
+
+
+
+#cell17 {
+    position: absolute;
+    top: 547px;
+    left: 0px;
+    margin-left: 5px;
+    /*background-color: aquamarine;*/
+}
+
+#cell18 {
+    position: absolute;
+    top: 547px;
+    left: 257px;
+    /*background-color: cornflowerblue;*/
+}
+
+#cell19 {
+    position: absolute;
+    top: 547px;
+    left: 502px;
+    /*background-color: aquamarine;*/
+}
+
+#cell20 {
+    position: absolute;
+    top: 547px;
+    left: 741px;
+    /*background-color: cornflowerblue;*/
+}
+
+
+
+
+/*Layout Style*/
+/*.summaryTable {
+    display: table;
+}
+
+.DCsummaryItem {
+    display: table-cell;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    color: black;
+    word-break: normal;
+}*/
+
+
+.cellProductName {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 89px;
+    left: 5px;
+    /* text-align: center; */
+    height: 22px;
+    font-size: 12px;
+    width: 235px;
+    font-weight: 600;
+    /* font-weight: bold; */
+    color: black;
+}
+
+.cellProductUPC {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: -41px;
+    left: 4px;
+    /* text-align: center; */
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.cellProductDC {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 72px;
+    left: 4px;
+    /* text-align: center; */
+    font-size: 12px;
+    width: 143px;
+    font-weight: 600;
+    /* font-weight: bold; */
+}
+
+.cellProductImage {
+    position: relative;
+}
+
+.cellBarcode {
+    /*position: fixed;
+    left: 82px;
+    bottom: -81px;*/
+    left: 131px;
+    vertical-align: bottom;
+    bottom: -15px;
+    position: absolute;
+}
+
+
+.imageWrapper {
+    width: 100px;
+    height: 100px;
+    /*border: 1px solid red;*/
+    position: relative;
+    text-align: center;
+    top: 28px;
+    vertical-align: middle;
+    display: table-cell;
+    left: 4px;
+}
+
+#MWCD_CStore_Sales_SuggOrderSumm1 > div > div.PDFMenu > div {
+    color: white;
+    font-size: 35px;
+    margin-top: 47px;
+    font-weight: bold;
+    margin-left: 682px;
+}
+
+a.creatPDF {
+    position: absolute;
+    /*border: 2px solid crimson;*/
+    height: 24px;
+    width: 79px;
+    margin-left: 894px;
+    margin-top: -70px;
+}
+
+
+
+
+
+
+/***********************************************
+    CONTRACTS COMPLIANCE IC
+***********************************************/
+#tblMWCD_CompDistIC_All1 {
+    border: 0;
+    position: absolute;
+    margin-top: 235px;
+    margin-left: 764px;
+}
+
+    #tblMWCD_CompDistIC_All1 > thead > tr > th {
+        display: none;
+    }
+
+    #tblMWCD_CompDistIC_All1 > tbody > tr > td {
+        background-color: transparent;
+        border: 0;
+        text-align: center;
+        font-size: large;
+        font-weight: bold;
+        display: block;
+        height: 28px;
+    }
+
+
+/***********************************************
+    CONTRACTS COMPLIANCE FC
+***********************************************/
+
+#tblMWCD_CompDistFC_All1 {
+    border: 0;
+    margin-top: 524px;
+    margin-left: 728px;
+    position: absolute;
+}
+
+    #tblMWCD_CompDistFC_All1 > thead > tr > th {
+        display: none;
+    }
+
+    #tblMWCD_CompDistFC_All1 > tbody > tr > td {
+        background-color: transparent;
+        border: 0;
+        text-align: center;
+        font-size: large;
+        font-weight: bold;
+        display: block;
+        height: 28px;
+    }
+
+div#ComDist_InfoTag {
+    margin-top: 645px;
+    position: absolute;
+    margin-left: 801px;
+}
+
+    div#ComDist_InfoTag ul {
+        list-style: none;
+    }
+
+
+div#StorePerfomance_InfoTag {
+    margin-top: 653px;
+    position: absolute;
+    margin-left: 672px;
+}
+
+    div#StorePerfomance_InfoTag ul {
+        list-style: none;
+    }
+
+
+div#SalesBy_InfoTag {
+    margin-top: 639px;
+    position: absolute;
+    margin-left: 672px;
+}
+
+    div#SalesBy_InfoTag ul {
+        list-style: none;
+    }
+
+/***********************************************
+    CONTRACTS COMPLIANCE SHIPPERS 
+***********************************************/
+/*******************
+            1ST HALF
+        *********************/
+
+#tblMWCD_CompShip_FirstHalf_All1 {
+    MARGIN-TOP: 304px;
+    border: 0;
+    margin-left: 22px;
+    position: absolute;
+}
+
+    #tblMWCD_CompShip_FirstHalf_All1 > thead > tr > th {
+        display: none;
+    }
+
+    #tblMWCD_CompShip_FirstHalf_All1 > tbody > tr > td {
+        background-color: transparent;
+        border: 0;
+        text-align: center;
+        font-size: large;
+        font-weight: bold;
+    }
+
+
+
+/***********************************************
+    CONTRACTS COMPLIANCE SHIPPERS 
+***********************************************/
+/*******************
+            2ND HALF
+        *********************/
+
+#tblMWCD_CompShip_SecondHalf_All1 {
+    MARGIN-TOP: 422px;
+    border: 0;
+    margin-left: 22px;
+    position: absolute;
+}
+
+
+    #tblMWCD_CompShip_SecondHalf_All1 > thead > tr > th {
+        display: none;
+    }
+
+    #tblMWCD_CompShip_SecondHalf_All1 > tbody > tr > td {
+        background-color: transparent;
+        border: 0;
+        text-align: center;
+        font-size: large;
+        font-weight: bold;
+    }
+
+
+div#CompShip_InfoTag {
+    margin-top: 649px;
+    position: absolute;
+    margin-left: 778px;
+}
+
+
+    div#CompShip_InfoTag ul {
+        list-style: none;
+    }
+
+
+/***********************************************
+    CONTRACTS COMPLIANCE RACKS
+***********************************************/
+
+#tblMWCD_RacksRewards_All1 {
+    MARGIN-TOP: 310px;
+    border: 0;
+    margin-left: 235px;
+    position: absolute;
+}
+
+    #tblMWCD_RacksRewards_All1 > thead > tr > th {
+        display: none;
+    }
+
+    #tblMWCD_RacksRewards_All1 > tbody > tr > td {
+        background-color: transparent;
+        border: 0;
+        text-align: center;
+        font-size: large;
+    }
+
+div#MSF_RacksRewards_Info {
+    margin-top: 650px;
+    position: absolute;
+    margin-left: 800px;
+}
+
+    div#MSF_RacksRewards_Info ul {
+        list-style: none;
+    }
+
+/***
+Seasonal Plan Table    
+***/
+
+#tblMWCD_SeasonalPlan_All1 {
+    border: 0;
+    margin-top: 341px;
+    margin-left: 407px;
+    position: absolute;
+}
+
+    #tblMWCD_SeasonalPlan_All1 > thead > tr {
+        display: none;
+    }
+
+    #tblMWCD_SeasonalPlan_All1 > tbody > tr > td {
+        text-align: center;
+        background: transparent;
+        border: 0px;
+        font-size: large;
+        font-weight: bold;
+    }
+
+#MSF_SeasonalPlan_All1_INFO {
+    font-size: x-small;
+    margin-top: 641px;
+    position: absolute;
+    margin-left: 824px;
+    text-align: center;
+}
+
+div#MSF_SeasonalPlan_All1_INFO ul {
+    list-style: none;
+}
+
+
+/***
+Seasonal Plan Table    END 
+***/
+
+/***********************************************
+    CONTRACTS OPT COMPLIANCE SHIPPERS 
+***********************************************/
+/*******************
+            1ST HALF
+        *********************/
+
+#tblMWCD_CompOptShip_FirstHalf_All1 {
+    MARGIN-TOP: 202px;
+    border: 0;
+    margin-left: 862px;
+    position: absolute;
+}
+
+
+    #tblMWCD_CompOptShip_FirstHalf_All1 > thead > tr > th {
+        display: none;
+    }
+
+    #tblMWCD_CompOptShip_FirstHalf_All1 > tbody > tr > td {
+        background-color: transparent;
+        border: 1px;
+        text-align: center;
+        font-size: large;
+        font-weight: bold;
+        display: block;
+        height: 19.3px;
+    }
+
+
+
+/***********************************************
+    CONTRACTS OPT COMPLIANCE SHIPPERS 
+***********************************************/
+/*******************
+            2ND HALF
+        *********************/
+
+#tblMWCD_CompOptShip_SecondHalf_All1 {
+    MARGIN-TOP: 408px;
+    border: 0;
+    margin-left: 862px;
+    position: absolute;
+}
+
+
+    #tblMWCD_CompOptShip_SecondHalf_All1 > thead > tr > th {
+        display: none;
+    }
+
+    #tblMWCD_CompOptShip_SecondHalf_All1 > tbody > tr > td {
+        background-color: transparent;
+        border: 1px;
+        text-align: center;
+        font-size: large;
+        font-weight: bold;
+        display: block;
+        height: 19.3px;
+    }
+
+
+#tblMWCD_DistSalesOpp_All2 > tbody > tr > td:nth-child(7), #tblMSF_DistSalesOpp_All2 > tbody > tr > td:nth-child(8) {
+    text-align: center !important;
+}
+
+
+/***********************************************
+   PRESELL (START)
+***********************************************/
+
+#SelectDropDown2 {
+    margin-top: 324px;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    width: 194px;
+    margin-left: -64px;
+    border: 0px;
+    font-size: 12px;
+}
+
+
+
+
+/*******************
+            HALLOWEEN/HOLIDAY START
+        *********************/
+
+div#MWCD_CStore_Sales_PreSell1 table.custom,
+div#MWCD_CStore_Sales_PreSell3 table.custom {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border: 1px solid black;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+div#MWCD_CStore_Sales_PreSell1 > div > div.tablefilters,
+div#MWCD_CStore_Sales_PreSell3 > div > div.tablefilters {
+    position: absolute;
+    left: 111px;
+    top: 165px;
+    display: block;
+}
+
+
+div#MWCD_CStore_Sales_PreSell1 > div > table.custom thead tr th, div#MWCD_CStore_Sales_PreSell3 > table.custom tfoot tr th {
+    display: none;
+}
+
+#tblMWCD_Presell_All3 > thead > tr > th {
+    display: none;
+}
+
+#tblMWCD_Presell_All1_Detai3 > thead > tr > th {
+    display: none;
+}
+
+div#MWCD_CStore_Sales_PreSell1 > div > table.custom tr td, div#MWCD_CStore_Sales_PreSell3 > div > table.custom tr td {
+    background-color: transparent;
+    padding: 6px;
+    text-align: left;
+    color: #1a1a1a;
+    border: 0;
+}
+
+#tblMWCD_Presell_All1_Detail1, #tblMWCD_Presell_All1_Detail3 {
+    margin-top: 482px;
+    margin-left: 823px;
+}
+
+div#MWCD_CStore_Sales_PreSell1 table.custom tbody,
+div#MWCD_CStore_Sales_PreSell3 table.custom tbody {
+    /*border:0;
+    border-left: 0;*/
+    max-height: 190px;
+}
+
+
+table#tblMWCD_Presell_All1_Detail1 tbody tr td,
+table#tblMWCD_Presell_All1_Detai3 tbody tr td {
+    display: block;
+}
+
+#tblMWCD_Presell_All1 > tbody > tr > td, #tblMWCD_Presell_All3 > tbody > tr > td {
+    vertical-align: middle;
+    font-size: 12px;
+}
+
+
+
+
+#tblMWCD_Presell_All1 > tbody > tr:nth-child(1) > td:nth-child(6), #tblMWCD_Presell_All1 > tbody > tr:nth-child(2) > td:nth-child(6),
+#tblMWCD_Presell_All3 > tbody > tr:nth-child(1) > td:nth-child(6), #tblMWCD_Presell_All3 > tbody > tr:nth-child(2) > td:nth-child(6) {
+    text-align: left !important;
+}
+
+div#MWCD_CStore_Sales_PreSell1 table.custom tbody tr td:nth-child(2),
+div#MWCD_CStore_Sales_PreSell1 table.custom tbody tr td:nth-child(3),
+div#MWCD_CStore_Sales_PreSell1 table.custom tbody tr td:nth-child(2),
+div#MWCD_CStore_Sales_PreSell1 table.custom tbody tr td:nth-child(3) {
+    text-align: left;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+
+div#MWCD_CStore_Sales_PreSell1 table.custom tbody tr td:nth-child(4),
+#tblMWCD_Presell_All3 > tbody > tr > td:nth-child(4) {
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+
+div#MWCD_CStore_Sales_PreSell1 table.custom tbody tr td:nth-child(5),
+div#MWCD_CStore_Sales_PreSell1 table.custom tbody tr td:nth-child(6),
+div#MWCD_CStore_Sales_PreSell1 table.custom tbody tr td:nth-child(7),
+div#MWCD_CStore_Sales_PreSell1 table.custom tbody tr td:nth-child(8),
+div#MWCD_CStore_Sales_PreSell3 table.custom tbody tr td:nth-child(5),
+div#MWCD_CStore_Sales_PreSell3 table.custom tbody tr td:nth-child(6),
+div#MWCD_CStore_Sales_PreSell3 table.custom tbody tr td:nth-child(7),
+div#MWCD_CStore_Sales_PreSell3 table.custom tbody tr td:nth-child(8) {
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+
+div#MWCD_CStore_Sales_PreSell1 table.custom thead tr th:nth-child(1) {
+    background-color: #25AEE4;
+    text-align: left;
+    font-size: 16px;
+}
+
+div#MWCD_CStore_Sales_PreSell1 > div > table.custom, div#MWCD_CStore_Sales_PreSell3 > div > table.custom {
+    border: 0px;
+    font-size: 10px;
+    font-weight: bold;
+    position: absolute;
+    width: 900px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+
+
+div#MWCD_CStore_Sales_PreSell1 table.custom tbody tr td:nth-child(1), div#MWCD_CStore_Sales_PreSell3 table.custom tbody tr td:nth-child(1) {
+    display: none;
+}
+
+div#MWCD_CStore_Sales_PreSell1 > div > table.orderDeliverDates, div#MWCD_CStore_Sales_PreSell3 > div > table.orderDeliverDates {
+    border: 0px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+div#MWCD_CStore_Sales_PreSell1 table.distributorItemDetails tbody tr:nth-child(1),
+div#MWCD_CStore_Sales_PreSell1 table.distributorItemDetails tbody tr:nth-child(3),
+div#MWCD_CStore_Sales_PreSell1 table.distributorItemDetails tbody tr:nth-child(5),
+div#MWCD_CStore_Sales_PreSell1 table.distributorItemDetails tbody tr:nth-child(7),
+div#MWCD_CStore_Sales_PreSell1 table.distributorItemDetails tbody tr:nth-child(9),
+div#MWCD_CStore_Sales_PreSell1 table.distributorItemDetails tbody tr:nth-child(11),
+div#MWCD_CStore_Sales_PreSell1 table.distributorItemDetails tbody tr:nth-child(13),
+div#MWCD_CStore_Sales_PreSell1 table.distributorItemDetails tbody tr:nth-child(15),
+div#MWCD_CStore_Sales_PreSell1 table.distributorItemDetails tbody tr:nth-child(17),
+div#MWCD_CStore_Sales_PreSell1 table.distributorItemDetails tbody tr:nth-child(19),
+div#MWCD_CStore_Sales_PreSell1 table.distributorItemDetails tbody tr:nth-child(21),
+div#MWCD_CStore_Sales_PreSell1 table.distributorItemDetails tbody tr:nth-child(23),
+div#MWCD_CStore_Sales_PreSell3 table.distributorItemDetails tbody tr:nth-child(1),
+div#MWCD_CStore_Sales_PreSell3 table.distributorItemDetails tbody tr:nth-child(3),
+div#MWCD_CStore_Sales_PreSell3 table.distributorItemDetails tbody tr:nth-child(5),
+div#MWCD_CStore_Sales_PreSell3 table.distributorItemDetails tbody tr:nth-child(7),
+div#MWCD_CStore_Sales_PreSell3 table.distributorItemDetails tbody tr:nth-child(9),
+div#MWCD_CStore_Sales_PreSell3 table.distributorItemDetails tbody tr:nth-child(11),
+div#MWCD_CStore_Sales_PreSell3 table.distributorItemDetails tbody tr:nth-child(13),
+div#MWCD_CStore_Sales_PreSell3 table.distributorItemDetails tbody tr:nth-child(15),
+div#MWCD_CStore_Sales_PreSell3 table.distributorItemDetails tbody tr:nth-child(17),
+div#MWCD_CStore_Sales_PreSell3 table.distributorItemDetails tbody tr:nth-child(19),
+div#MWCD_CStore_Sales_PreSell3 table.distributorItemDetails tbody tr:nth-child(21),
+div#MWCD_CStore_Sales_PreSell3 table.distributorItemDetails tbody tr:nth-child(23) {
+    height: 31px;
+}
+
+
+
+table.distributorItemDetails {
+    margin-top: 559px;
+    left: 43px;
+}
+
+
+table.orderDeliverDates {
+    margin-top: 469px;
+    margin-left: 801px;
+}
+
+
+div#MWCD_CStore_Sales_PreSell1 table.orderDeliverDates tbody tr td:nth-child(3), div#MWCD_CStore_Sales_PreSell3 table.orderDeliverDates tbody tr td:nth-child(3) {
+    padding-top: 0px;
+    padding-left: 5px;
+    font-size: 14px;
+}
+
+div#MWCD_CStore_Sales_PreSell1 table.orderDeliverDates tbody tr td:nth-child(2), div#MWCD_CStore_Sales_PreSell3 table.orderDeliverDates tbody tr td:nth-child(2) {
+    font-size: 14px;
+    padding-bottom: 6px;
+}
+
+table#tblMWCD_Presell_All1_Detai3 {
+    margin-top: 482px;
+    margin-left: 819px;
+}
+
+/*******************
+           HALLOWEEN/HOLIDAY END
+        *********************/
+
+
+
+/*******************
+           5GUM/WHITE START
+        *********************/
+#SelectDropDown2and4 {
+    margin-top: 355px;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    width: 194px;
+    margin-left: -64px;
+    border: 0px;
+    font-size: 12px;
+}
+
+
+div#MWCD_CStore_Sales_PreSell2 table.custom,
+div#MWCD_CStore_Sales_PreSell4 table.custom {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border: 1px solid black;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+div#MWCD_CStore_Sales_PreSell2 > div > div.tablefilters,
+div#MWCD_CStore_Sales_PreSell4 > div > div.tablefilters {
+    position: absolute;
+    left: 111px;
+    top: 165px;
+    display: block;
+}
+
+
+#tblMWCD_Presell_All2 > thead > tr > th,
+#tblMWCD_Presell_All4 > thead > tr > th {
+    display: none;
+}
+
+#tblMWCD_Presell_All1_Detail2 > thead > tr > th,
+#tblMWCD_Presell_All1_Detail4 > thead > tr > th {
+    display: none;
+}
+
+div#MWCD_CStore_Sales_PreSell2 > div > table.custom tr td, div#MWCD_CStore_Sales_PreSell4 > div > table.custom tr td {
+    background-color: transparent;
+    padding: 6px;
+    text-align: left;
+    color: #1a1a1a;
+    border: 0;
+}
+
+#tblMWCD_Presell_All1_Detail2,
+#tblMWCD_Presell_All1_Detail4 {
+    margin-top: 515px;
+    margin-left: 823px;
+}
+
+
+div#MWCD_CStore_Sales_PreSell2 table.custom tbody,
+div#MWCD_CStore_Sales_PreSell4 table.custom tbody {
+    /*border:0;
+    border-left: 0;*/
+    max-height: 190px;
+}
+
+
+table#tblMWCD_Presell_All1_Detail2 tbody tr td,
+table#tblMWCD_Presell_All1_Detail4 tbody tr td {
+    display: block;
+}
+
+#tblMWCD_Presell_All2 > tbody > tr > td, #tblMWCD_Presell_All4 > tbody > tr > td {
+    vertical-align: middle;
+    font-size: 12px;
+}
+
+
+#tblMWCD_Presell_All2 > tbody > tr:nth-child(1) > td:nth-child(6), #tblMWCD_Presell_All2 > tbody > tr:nth-child(2) > td:nth-child(6),
+#tblMWCD_Presell_All4 > tbody > tr:nth-child(1) > td:nth-child(6), #tblMWCD_Presell_All4 > tbody > tr:nth-child(2) > td:nth-child(6) {
+    text-align: left !important;
+}
+
+div#MWCD_CStore_Sales_PreSell2 table.custom tbody tr td:nth-child(2),
+div#MWCD_CStore_Sales_PreSell2 table.custom tbody tr td:nth-child(3),
+div#MWCD_CStore_Sales_PreSell4 table.custom tbody tr td:nth-child(2),
+div#MWCD_CStore_Sales_PreSell4 table.custom tbody tr td:nth-child(3) {
+    text-align: left;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+
+div#MWCD_CStore_Sales_PreSell2 table.custom tbody tr td:nth-child(4),
+#tblMWCD_Presell_All4 > tbody > tr > td:nth-child(4) {
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+div#MWCD_CStore_Sales_PreSell2 table.custom tbody tr td:nth-child(5),
+div#MWCD_CStore_Sales_PreSell2 table.custom tbody tr td:nth-child(6),
+div#MWCD_CStore_Sales_PreSell2 table.custom tbody tr td:nth-child(7),
+div#MWCD_CStore_Sales_PreSell2 table.custom tbody tr td:nth-child(8),
+div#MWCD_CStore_Sales_PreSell4 table.custom tbody tr td:nth-child(5),
+div#MWCD_CStore_Sales_PreSell4 table.custom tbody tr td:nth-child(6),
+div#MWCD_CStore_Sales_PreSell4 table.custom tbody tr td:nth-child(7),
+div#MWCD_CStore_Sales_PreSell4 table.custom tbody tr td:nth-child(8) {
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+div#MWCD_CStore_Sales_PreSell2 table.custom thead tr th:nth-child(1) {
+    background-color: #25AEE4;
+    text-align: left;
+    font-size: 16px;
+}
+
+div#MWCD_CStore_Sales_PreSell2 > div > table.custom, div#MWCD_CStore_Sales_PreSell4 > div > table.custom {
+    border: 0px;
+    font-size: 10px;
+    font-weight: bold;
+    position: absolute;
+    width: 900px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#tblMWCD_Presell_All2 {
+    margin-top: 590px;
+}
+
+
+div#MWCD_CStore_Sales_PreSell2 table.custom tbody tr td:nth-child(1), div#MWCD_CStore_Sales_PreSell4 table.custom tbody tr td:nth-child(1) {
+    display: none;
+}
+
+div#MWCD_CStore_Sales_PreSell2 > div > table.orderDeliverDates, div#MWCD_CStore_Sales_PreSell4 > div > table.orderDeliverDates {
+    border: 0px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+div#MWCD_CStore_Sales_PreSell2 table.distributorItemDetails tbody tr:nth-child(1),
+div#MWCD_CStore_Sales_PreSell2 table.distributorItemDetails tbody tr:nth-child(3),
+div#MWCD_CStore_Sales_PreSell2 table.distributorItemDetails tbody tr:nth-child(5),
+div#MWCD_CStore_Sales_PreSell2 table.distributorItemDetails tbody tr:nth-child(7),
+div#MWCD_CStore_Sales_PreSell2 table.distributorItemDetails tbody tr:nth-child(9),
+div#MWCD_CStore_Sales_PreSell2 table.distributorItemDetails tbody tr:nth-child(11),
+div#MWCD_CStore_Sales_PreSell2 table.distributorItemDetails tbody tr:nth-child(13),
+div#MWCD_CStore_Sales_PreSell2 table.distributorItemDetails tbody tr:nth-child(15),
+div#MWCD_CStore_Sales_PreSell2 table.distributorItemDetails tbody tr:nth-child(17),
+div#MWCD_CStore_Sales_PreSell2 table.distributorItemDetails tbody tr:nth-child(19),
+div#MWCD_CStore_Sales_PreSell2 table.distributorItemDetails tbody tr:nth-child(21),
+div#MWCD_CStore_Sales_PreSell2 table.distributorItemDetails tbody tr:nth-child(23),
+div#MWCD_CStore_Sales_PreSell4 table.distributorItemDetails tbody tr:nth-child(1),
+div#MWCD_CStore_Sales_PreSell4 table.distributorItemDetails tbody tr:nth-child(3),
+div#MWCD_CStore_Sales_PreSell4 table.distributorItemDetails tbody tr:nth-child(5),
+div#MWCD_CStore_Sales_PreSell4 table.distributorItemDetails tbody tr:nth-child(7),
+div#MWCD_CStore_Sales_PreSell4 table.distributorItemDetails tbody tr:nth-child(9),
+div#MWCD_CStore_Sales_PreSell4 table.distributorItemDetails tbody tr:nth-child(11),
+div#MWCD_CStore_Sales_PreSell4 table.distributorItemDetails tbody tr:nth-child(13),
+div#MWCD_CStore_Sales_PreSell4 table.distributorItemDetails tbody tr:nth-child(15),
+div#MWCD_CStore_Sales_PreSell4 table.distributorItemDetails tbody tr:nth-child(17),
+div#MWCD_CStore_Sales_PreSell4 table.distributorItemDetails tbody tr:nth-child(19),
+div#MWCD_CStore_Sales_PreSell4 table.distributorItemDetails tbody tr:nth-child(21),
+div#MWCD_CStore_Sales_PreSell4 table.distributorItemDetails tbody tr:nth-child(23) {
+    height: 31px;
+}
+
+
+table.distributorItemDetails {
+    margin-top: 559px;
+    left: 43px;
+}
+
+
+div#MWCD_CStore_Sales_PreSell2 table.orderDeliverDates tbody tr td:nth-child(3), div#MWCD_CStore_Sales_PreSell4 table.orderDeliverDates tbody tr td:nth-child(3) {
+    padding-top: 0px;
+    padding-left: 5px;
+    font-size: 14px;
+}
+
+div#MWCD_CStore_Sales_PreSell2 table.orderDeliverDates tbody tr td:nth-child(2), div#MWCD_CStore_Sales_PreSell4 table.orderDeliverDates tbody tr td:nth-child(2) {
+    font-size: 14px;
+    padding-bottom: 6px;
+}
+
+
+table#tblMWCD_Presell_All1_Detai4 {
+    margin-top: 482px;
+    margin-left: 819px;
+}
+
+#tblMWCD_Presell_All4 {
+    margin-top: 591px;
+}
+
+    #tblMWCD_Presell_All3 > tbody > tr > td:nth-child(4),
+    #tblMWCD_Presell_All2 > tbody > tr > td:nth-child(4),
+    #tblMWCD_Presell_All4 > tbody > tr > td:nth-child(4) {
+        text-align: center !important;
+    }
+
+
+
+/*******************
+           5GUM/WHITE END
+        *********************/
+
+/***********************************************
+   PRESELL (END)
+***********************************************/
+
+#tblMWCD_CompShip_FirstHalf_All1 > tbody > tr * {
+    display: block;
+}
+
+#tblMWCD_CompShip_FirstHalf_All1 > tbody > tr > td:nth-child(n+1):nth-child(-n+1) {
+    display: table-cell;
+}
+
+#tblMWCD_CompShip_FirstHalf_All1 > tbody > tr > td:nth-child(n+3):nth-child(-n+2) {
+    display: block;
+}
+
+#tblMWCD_CompShip_FirstHalf_All1 > tbody > tr > td:nth-child(n+3):nth-child(-n+3) {
+    display: table-cell;
+}
+
+
+/*#tblMWCD_CompShip_FirstHalf_All1 > tbody > tr > td:nth-child(n+3):nth-child(-n+4){
+    display: table-cell;
+}*/
+
+/*#tblMWCD_CompShip_FirstHalf_All1 > tbody > tr > td:nth-child(n+3):nth-child(-n+4){
+    display: inline-block;
+}
+
+#tblMWCD_CompShip_FirstHalf_All1 > tbody > tr > td:nth-child(n+4):nth-child(-n+6){
+    display: block;
+}
+
+#tblMWCD_CompShip_FirstHalf_All1 > tbody > tr > td:nth-child(n+5):nth-child(-n+6){
+    display: inline-block;
+}*/
+
+
+
+
+/***********************************************
+  PLAN TABLES
+***********************************************/
+
+div#ComDist_InfoTag ul {
+    list-style: none;
+}
+
+.planTable {
+    display: table;
+}
+
+.planRow {
+    display: table-row;
+}
+
+.planCell {
+    display: table-cell;
+    text-align: center;
+}
+
+
+div#ComDistICPlan1Content ul,
+div#ComDistICPlan2Content ul,
+div#ComDistFCPlanContent ul,
+div#CUPPartLevelContent ul {
+    list-style: none;
+    color: black;
+}
+
+#ComDistICPlan1 {
+    position: absolute;
+    margin-top: -126px;
+    margin-left: 58px;
+}
+
+#ComDistICPlan2 {
+    position: absolute;
+    margin-top: -126px;
+    margin-left: 251px;
+}
+
+#ComDistFCPlan {
+    position: absolute;
+    margin-top: 165px;
+    margin-left: 102px;
+}
+
+#CUPPartLevel {
+    position: absolute;
+    margin-top: -153px;
+    margin-left: 159px;
+}
+
+/***********************************************
+   CONT Comp Display and Seasonal (START)
+***********************************************/
+
+#tblMWCD_ContSeasonal_All1, #tbMWCD_ContDisplays_All1 {
+    border: 0;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+
+#tbMWCD_ContDisplays_All1 {
+    position: absolute;
+    margin-top: 166px;
+    margin-left: 651px;
+}
+
+#tblMWCD_ContSeasonal_All1 {
+    position: absolute;
+    margin-top: 395px;
+    margin-left: 651px;
+}
+
+    #tbMWCD_ContDisplays_All1 > thead > tr > th, #tblMWCD_ContSeasonal_All1 > thead > tr > th {
+        display: none;
+    }
+
+#tbMWCD_ContDisplays_All1 > tbody > tr > td {
+    display: block;
+    text-align: center;
+    background-color: transparent;
+    border: 0px;
+    height: 20px;
+    font-weight: 600;
+}
+
+#tblMWCD_ContSeasonal_All1 > tbody > tr > td {
+    display: block;
+    text-align: center;
+    background-color: transparent;
+    border: 0px;
+    height: 20px;
+    font-weight: 600;
+}
+
+/***********************************************
+   CONT Comp Display and Seasonal (END)
+***********************************************/
+
+
+/***********************************************
+   CONT Comp Shippers (START)
+***********************************************/
+#tblMWCD_ContCompShip_All11 {
+    border: 0;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+#tblMWCD_ContCompShip_All11 {
+    position: absolute;
+    margin-top: 199px;
+    margin-left: 456px;
+}
+
+    #tblMWCD_ContCompShip_All11 > thead > tr > th {
+        display: none;
+    }
+
+
+    #tblMWCD_ContCompShip_All11 > tbody > tr > td {
+        text-align: center;
+        background-color: transparent;
+        border: 0px;
+        height: 20px;
+        font-weight: 600;
+    }
+
+div#ContCompShipperPartLvl {
+    position: absolute;
+    left: -215px;
+    top: 109px;
+    margin-left: 669px;
+    margin-top: 26px;
+    border: 0px solid red;
+    font-size: 23px;
+}
+#ContCompShip {
+    position: absolute;
+    margin-top: -126px;
+    margin-left: 58px;
+}
+
+div#ContCompShipLvlContent ul {
+    list-style: none;
+    color: black;
+}
+
+/***********************************************
+   CONT Comp Shippers (END)
+***********************************************/
+/***********************************************
+   CONT Comp Counter Units (START)
+***********************************************/
+#tblMWCD_ContCounterUnits_All1 {
+    border: 0;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+#tblMWCD_ContCounterUnits_All1 {
+    position: absolute;
+    margin-top: 199px;
+    margin-left: 154px;
+}
+
+    #tblMWCD_ContCounterUnits_All1 > thead > tr > th {
+        display: none;
+    }
+
+
+    #tblMWCD_ContCounterUnits_All1 > tbody > tr > td {
+        text-align: center;
+        background-color: transparent;
+        border: 0px;
+        height: 20px;
+        font-weight: 600;
+    }
+
+
+/***********************************************
+   CONT Comp Counter Units (END)
+***********************************************/
+
+
+
+/***********************************************
+   PC Search Bar START
+***********************************************/
+
+
+#MWCD_PC_Gum1_filters > span:nth-child(7) {
+    margin-left: 6px;
+}
+
+.pcSearchBar {
+    position: absolute;
+    margin-left: 517px;
+    margin-top: -22px;
+}
+
+.clear-holder {
+    position: relative;
+    float: left;
+}
+
+.clear-helper {
+    position: absolute;
+    right: 4px;
+    font-size: 11pt;
+    cursor: pointer;
+    margin-top: 2px;
+    font-weight: 600;
+}
+
+#MSF_PCCombos_All1_filters > span:nth-child(4) {
+    margin-left: 250px;
+}
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .pcSearchBar {
+        position: absolute;
+        margin-left: 553px;
+        margin-top: -22px;
+    }
+
+
+    div#ComDist_InfoTag {
+        margin-top: 645px;
+        position: absolute;
+        margin-left: 813px;
+    }
+
+
+}
+
+/***********************************************
+   PC Search Bar END
+***********************************************/
+
+
+/*█████████████████████████████████████████████████████████████████
+    MTP MOBILE APP LAUNCHER                    START
+█████████████████████████████████████████████████████████████████*/
+
+a.mptMobileAppLauncher1 {
+    position: absolute;
+    width: 79px;
+    height: 113px;
+    /*border: 1px solid;*/
+    margin-top: 262px;
+    margin-left: 1px;
+}
+
+a.mptMobileAppLauncher2 {
+    position: absolute;
+    width: 486px;
+    height: 65px;
+    /*border: 1px solid;*/
+    margin-top: 265px;
+    margin-left: 1px;
+}
+
+
+
+
+/*█████████████████████████████████████████████████████████████████
+    MTP MOBILE APP LAUNCHER                    END
+█████████████████████████████████████████████████████████████████*/

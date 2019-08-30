@@ -1,0 +1,39 @@
+Version Number: 20140730
+
+
+Existing Features (from previous versions):
+- Data fills (table and graph) only as the particular page loads (not on Pitch open)
+- Loading Screen
+- Multi-Selects filter on Close
+- Generics-Ready Divs = Divs can be filled with a multi-column data object. (Supposed to be one record, single-column referenced)
+- Graphs work on first page
+- Multi-Graphs on the same page.
+- SmartText = A single drop-down controls both a graph display and a table (special for Pepsi)
+- Generics-ready "highlight data" = Ability to reference a multi-column data object when refering to the match-field for highlight.
+- Table Overload function ("populate_table_overload") = This is a common function called when a table is displayed. It should be added to the Team Toolbox. It allows for math recalculation on Table display (esp. for saved values). 
+- Added a file to the source files that includes several key "common" functions for Team Toolboxes. See scripts/CommonFunctions.txt for more info.
+- Dynamic Column Headers for JQuery-driven tables. 
+- Explicitly specify the standard outside border of tables as grey.
+- Modified SFPresentation.js with line of code for transition from Touch 3 to Touch 4.
+- Modified coremain.js in regards to the filtering of both muliselect and radio buttons on multiple targets.
+- Multi-filter did not work on initial table load. This has been fixed.
+
+New Features (to move up on next version):
+- Code update for Touch 4 bread crumb issue
+- Main.js(ChangeColor Function) and ClearAll functions altered to allow for coloring of cells within tables with use of class name "colorColumn"
+
+Bugs Fixed (remove these each version):
+
+
+
+
+
+
+
+
+
+
+Clarifications (keep these here):
+- Graphs MUST use numbers for values. Otherwise the Scale will be off.
+- When designing tables, make sure the table has side borders, then run the columns accross, the slider will be crushed into the last column.
+ 
